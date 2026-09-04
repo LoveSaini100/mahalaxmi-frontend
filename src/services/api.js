@@ -1,9 +1,13 @@
 import axios from 'axios';
 
 const getApiBaseUrl = () => {
-  const envUrl = import.meta.env.VITE_API_URL;
+  let envUrl = import.meta.env.VITE_API_URL;
   if (envUrl && envUrl.trim() !== '') {
-    return envUrl.replace(/\/$/, '');
+    envUrl = envUrl.trim().replace(/\/$/, '');
+    if (!envUrl.endsWith('/api')) {
+      envUrl = `${envUrl}/api`;
+    }
+    return envUrl;
   }
   return 'https://mahalaxmi-backend.vercel.app/api';
 };
@@ -56,7 +60,7 @@ export const getImageUrl = (imagePath) => {
     return imagePath;
   }
   const cleanPath = imagePath.startsWith('/') ? imagePath : `/${imagePath}`;
-  const apiBaseUrl = import.meta.env.VITE_API_URL || 'https://mahalaxmi-backend.vercel.app/api';
+  const apiBaseUrl = getApiBaseUrl();
   const baseUrl = apiBaseUrl.replace(/\/api\/?$/, '');
   return baseUrl ? `${baseUrl}${cleanPath}` : cleanPath;
 };
