@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || '/api',
+  baseURL: import.meta.env.VITE_API_URL || 'https://mahalaxmi-backend.vercel.app/api',
   headers: {
     'Content-Type': 'application/json',
   },
@@ -43,7 +43,7 @@ export const getImageUrl = (imagePath) => {
     return imagePath;
   }
   const cleanPath = imagePath.startsWith('/') ? imagePath : `/${imagePath}`;
-  const apiBaseUrl = import.meta.env.VITE_API_URL || '';
+  const apiBaseUrl = import.meta.env.VITE_API_URL || 'https://mahalaxmi-backend.vercel.app/api';
   const baseUrl = apiBaseUrl.replace(/\/api\/?$/, '');
   return baseUrl ? `${baseUrl}${cleanPath}` : cleanPath;
 };
