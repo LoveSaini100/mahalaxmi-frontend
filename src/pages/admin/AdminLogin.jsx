@@ -104,14 +104,6 @@ const AdminLogin = () => {
               )}
             </button>
           </form>
-
-          <div className="text-center pt-2">
-            <div className="text-[11px] text-slate-400 bg-navy-dark/60 p-2.5 rounded-xl border border-slate-800">
-              Default Admin Login:<br />
-              Email: <span className="text-gold font-bold">admin@mahalaxmiproperty.in</span><br />
-              Password: <span className="text-gold font-bold">mahalaxmi@123456</span>
-            </div>
-          </div>
         </div>
       </div>
     </>
