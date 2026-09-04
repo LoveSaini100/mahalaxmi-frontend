@@ -1,15 +1,28 @@
 import axios from 'axios';
 
+const getApiBaseUrl = () => {
+  const envUrl = import.meta.env.VITE_API_URL;
+  if (envUrl && envUrl.trim() !== '') {
+    return envUrl.replace(/\/$/, '');
+  }
+  return 'https://mahalaxmi-backend.vercel.app/api';
+};
+
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'https://mahalaxmi-backend.vercel.app/api',
   headers: {
     'Content-Type': 'application/json',
   },
 });
 
-// Request Interceptor: Attach JWT Token
+// Request Interceptor: Construct full API URL & Attach JWT Token
 API.interceptors.request.use(
   (config) => {
+    const apiBase = getApiBaseUrl();
+    if (config.url && !config.url.startsWith('http://') && !config.url.startsWith('https://')) {
+      const path = config.url.startsWith('/') ? config.url : `/${config.url}`;
+      config.url = `${apiBase}${path}`;
+    }
+
     const token = localStorage.getItem('mahalaxmi_admin_token');
     if (token) {
       config.headers.Authorization = `Bearer ${token}`;
