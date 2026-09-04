@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin/
 Disallow: /api/
 
-Sitemap: https://mahalaxmiproperty.in/sitemap.xml
+Sitemap: https://mahalaxmipropertiesindia.com/sitemap.xml

@@ -29,9 +29,9 @@ const AboutUs = () => {
   return (
     <>
       <SEO
-        title="About Mahalaxmi Property Biharigarh Saharanpur | UP"
-        description="Learn about Mahalaxmi Property, trusted real estate dealer near Pencho Restaurant on Dehradun-Saharanpur Highway, Biharigarh, Saharanpur, UP 247662."
-        keywords="About Mahalaxmi Property, Real estate agent Biharigarh, Saharanpur property dealer, Dehradun Highway land broker, Pencho Restaurant real estate, 247662 property company"
+        title="About Mahalaxmi Property | Best Property Dealer & Property Advisor in Biharigarh"
+        description="Learn why Mahalaxmi Property is recognized as the best property dealer and trusted property advisor in Biharigarh, Chutmalpur, Gagalheri, Behat & Saharanpur."
+        keywords="Best property dealer, property dealer in biharigarh, property advisor, property advisor in biharigarh, real estate agent Saharanpur, Chutmalpur property dealer, Gagalheri property advisor, Behat land dealer, Dehradun Highway plots"
       />
 
       {/* ================= HEADER BANNER ================= */}
@@ -42,13 +42,13 @@ const AboutUs = () => {
         <div className="max-w-7xl mx-auto px-4 text-center relative z-10 space-y-3">
           <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-navy border border-gold/40 text-gold text-xs font-bold uppercase tracking-widest backdrop-blur-md">
             <Award className="w-4 h-4 text-gold" />
-            <span>OUR IDENTITY & VALUES</span>
+            <span>BEST PROPERTY DEALER & ADVISOR IN BIHARIGARH</span>
           </span>
           <h1 className="text-4xl sm:text-5xl font-bold font-heading text-white">
             About Mahalaxmi Property
           </h1>
           <p className="text-xs sm:text-sm text-slate-300 max-w-2xl mx-auto leading-relaxed">
-            Your trusted real-estate partner dedicated to absolute transparency, deep regional market expertise, and securing dream properties along the Dehradun–Saharanpur Highway corridor.
+            Recognized as the <strong>best property dealer in Biharigarh</strong> and premier <strong>property advisor in Saharanpur</strong>, dedicated to absolute transparency, legal safety, and high-value land investments.
           </p>
         </div>
       </div>

@@ -92,7 +92,7 @@ const FAQPage = () => {
     {
       category: 'Support',
       q: '15. How can I get in touch with Mahalaxmi Property customer support?',
-      a: 'You can call our hotline at +91 9917970750, message us on WhatsApp (+91 9917970750), email us at info@mahalaxmiproperty.com, or fill out the quick form on our Contact Us page.',
+      a: 'You can call our hotline at +91 9917970750, message us on WhatsApp (+91 9917970750), email us at sales@mahalaxmipropertiesindia.com (or Direct@mahalaxmipropertiesindia.com / Manager@mahalaxmipropertiesindia.com), or fill out the quick form on our Contact Us page.',
     },
   ];
 

@@ -119,7 +119,7 @@ const TermsConditions = () => {
           </p>
           <div className="pt-2 text-xs text-slate-300 space-y-1 border-t border-white/10 mt-3 font-sans">
             <p><strong>Hotline / WhatsApp:</strong> +91 9917970750</p>
-            <p><strong>Email:</strong> info@mahalaxmiproperty.com</p>
+            <p><strong>Official Emails:</strong> Direct@mahalaxmipropertiesindia.com | Manager@mahalaxmipropertiesindia.com | sales@mahalaxmipropertiesindia.com</p>
             <p><strong>Address:</strong> Near Pencho Restaurant, Dehradun–Saharanpur Highway, Biharigarh, Saharanpur, UP - 247662</p>
           </div>
         </div>

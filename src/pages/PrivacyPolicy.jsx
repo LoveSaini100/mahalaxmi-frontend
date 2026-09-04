@@ -133,7 +133,7 @@ const PrivacyPolicy = () => {
             You have the right to request access to the personal data we hold about you, request corrections to inaccurate contact information, or ask for the deletion of your enquiry records from our database.
           </p>
           <div className="pt-2 text-xs text-slate-300 space-y-1 font-sans">
-            <p><strong>Official Contact Email:</strong> info@mahalaxmiproperty.com</p>
+            <p><strong>Official Contact Emails:</strong> Direct@mahalaxmipropertiesindia.com | Manager@mahalaxmipropertiesindia.com | sales@mahalaxmipropertiesindia.com</p>
             <p><strong>Hotline / WhatsApp:</strong> +91 9917970750</p>
             <p><strong>Office Address:</strong> Near Pencho Restaurant, Dehradun–Saharanpur Highway, Biharigarh, Saharanpur, UP - 247662</p>
           </div>

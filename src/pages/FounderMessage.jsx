@@ -9,18 +9,18 @@ const FounderMessage = () => {
   return (
     <>
       <SEO
-        title="Director Message | Mahalaxmi Property Biharigarh UP"
-        description="Read leadership message from Mahalaxmi Property director, serving land buyers near Pencho Restaurant on Dehradun-Saharanpur Highway in Biharigarh."
-        keywords="Mahalaxmi Property Director, Founder message, Real estate vision Biharigarh, Saharanpur land advisory, Dehradun Highway leadership"
+        title="Founder's Message | Mr. Ishwar Singh Rathour - Best Property Dealer in Biharigarh"
+        description="Read the leadership message from Mr. Ishwar Singh Rathour, Director & Founder of Mahalaxmi Property - the premier property advisor in Biharigarh & Saharanpur."
+        keywords="Mr Ishwar Singh Rathour, Best property dealer in Biharigarh, property advisor in biharigarh, property advisor Saharanpur, Chutmalpur property dealer, Gagalheri property advisor, Mahalaxmi Property founder"
       />
 
       {/* Header Banner */}
       <div className="bg-navy-dark text-white pt-32 pb-16 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
-          <span className="text-xs font-bold text-gold uppercase tracking-widest block mb-2">LEADERSHIP VISION</span>
+          <span className="text-xs font-bold text-gold uppercase tracking-widest block mb-2">LEADERSHIP VISION & TRUST</span>
           <h1 className="text-4xl font-bold font-heading">Founder's Message</h1>
           <p className="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto mt-2">
-            Building long-term relationships through trust, integrity, and reliable real estate guidance.
+            Guiding property buyers as the <strong>best property dealer in Biharigarh</strong> and premier <strong>property advisor in Saharanpur</strong>.
           </p>
         </div>
       </div>
@@ -32,14 +32,21 @@ const FounderMessage = () => {
             <div className="lg:col-span-5">
               <div className="relative aspect-[3/4] rounded-2xl overflow-hidden border-2 border-gold/40 shadow-xl">
                 <img
-                  src={settings?.founderImage || "/director.png"}
-                  alt={settings?.founderName || "Founder"}
+                  src="/founder.png"
+                  onError={(e) => {
+                    e.target.src = '/director.png';
+                  }}
+                  alt="Mr. Ishwar Singh Rathour - Director and Founder"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-navy-dark/80 via-transparent to-transparent" />
                 <div className="absolute bottom-4 left-4 right-4 text-white">
-                  <div className="text-lg font-bold font-heading text-gold">{settings?.founderName}</div>
-                  <div className="text-xs text-slate-300">{settings?.founderTitle}</div>
+                  <div className="text-lg font-bold font-heading text-gold">
+                    Mr. Ishwar Singh Rathour
+                  </div>
+                  <div className="text-xs text-slate-300">
+                    Director and Founder
+                  </div>
                 </div>
               </div>
             </div>
@@ -72,8 +79,10 @@ const FounderMessage = () => {
                 <div className="h-0.5 w-full bg-gradient-to-r from-gold-light via-gold to-transparent rounded-full mb-4" />
                 <div className="flex items-center justify-between">
                   <div>
-                    <div className="text-base font-bold font-heading text-navy-dark">{settings?.founderName}</div>
-                    <div className="text-xs text-slate-500">{settings?.companyName}</div>
+                    <div className="text-base font-bold font-heading text-navy-dark">
+                      Mr. Ishwar Singh Rathour
+                    </div>
+                    <div className="text-xs text-slate-500">Director and Founder</div>
                   </div>
                   <div className="font-heading italic text-xl text-gold font-bold">
                     ~ Mahalaxmi Property ~

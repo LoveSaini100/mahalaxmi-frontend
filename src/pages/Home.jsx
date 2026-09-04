@@ -58,9 +58,9 @@ const Home = () => {
   return (
     <>
       <SEO
-        title="Real Estate in Biharigarh Saharanpur | Mahalaxmi"
-        description="Find verified plots, villas, and commercial land near Pencho Restaurant on Dehradun-Saharanpur Highway, Biharigarh. Contact Mahalaxmi Property today."
-        keywords="Real Estate Biharigarh, Property in Saharanpur, Dehradun Saharanpur Highway plots, Pencho Restaurant Biharigarh, Land in 247662, Chhutmalpur property, Mohand plots, Gagalheri land, Commercial plot Biharigarh, Villa Saharanpur, Mahalaxmi Property"
+        title="Best Property Dealer in Biharigarh | Top Property Advisor Saharanpur"
+        description="Mahalaxmi Property is the best property dealer and trusted property advisor in Biharigarh, Chutmalpur, Gagalheri, Behat & Saharanpur. Verified residential plots & highway land along NH-307."
+        keywords="Best property dealer, property dealer in biharigarh, property advisor, property advisor in biharigarh, real estate agent Saharanpur, plots in Biharigarh, Chutmalpur property dealer, Gagalheri property advisor, Behat land dealer, Dehradun Highway plots, Pencho Restaurant Biharigarh, Mahalaxmi Property"
       />
 
       <section className="relative min-h-[90vh] flex items-center pt-24 pb-28 bg-navy-dark text-white overflow-hidden">
@@ -90,7 +90,7 @@ const Home = () => {
               className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-navy/90 border border-gold/40 text-gold text-xs font-bold uppercase tracking-widest backdrop-blur-md shadow-md"
             >
               <Award className="w-4 h-4 text-gold" />
-              <span>TRUSTED REAL ESTATE PARTNER</span>
+              <span>BEST PROPERTY DEALER & ADVISOR IN BIHARIGARH</span>
             </motion.div>
 
             {/* Main Heading */}
@@ -111,7 +111,7 @@ const Home = () => {
               transition={{ duration: 0.7, delay: 0.2 }}
               className="text-sm sm:text-base text-white leading-relaxed max-w-xl"
             >
-              Discover premium properties, residential homes, commercial hubs, and high-value plot investments with Mahalaxmi Property near Dehradun–Saharanpur Highway, Biharigarh.
+              Partner with the <strong>best property dealer in Biharigarh</strong> and premier <strong>property advisor in Saharanpur</strong>. Discover verified residential plots, commercial highway land, and farmhouses along the Dehradun–Saharanpur Highway (NH-307).
             </motion.p>
 
             {/* CTA Buttons */}
@@ -595,6 +595,40 @@ const Home = () => {
                 </div>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* ================= LOCAL SEO & REGIONAL COVERAGE SECTION ================= */}
+      <section className="py-14 bg-white border-t border-slate-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto space-y-3">
+            <span className="text-xs font-bold text-gold uppercase tracking-widest block">
+              PREMIER LOCAL REAL ESTATE CONSULTANCY
+            </span>
+            <h3 className="text-2xl sm:text-3xl font-bold font-heading text-navy-dark">
+              Best Property Dealer & Property Advisor in Biharigarh & Nearby Regions
+            </h3>
+            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Mahalaxmi Property is widely recognized as the <strong>best property dealer in Biharigarh</strong> and premier <strong>property advisor in Saharanpur district</strong>. Under the leadership of Founder Mr. Ishwar Singh Rathour and General Manager Mr. Amrit Singh, we provide end-to-end legal title verification, land demarcation, and transparent buying/selling advice for residential plots, commercial spaces, dhabas, petrol pump land, and agricultural holdings across all key nearby areas.
+            </p>
+          </div>
+
+          {/* Location Badges Grid */}
+          <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 text-center">
+            {[
+              { name: 'Biharigarh', tag: 'Core Hub & Foothills' },
+              { name: 'Chutmalpur', tag: 'Commercial & Junction' },
+              { name: 'Gagalheri', tag: 'Highway Corridor' },
+              { name: 'Behat', tag: 'Agricultural & Plots' },
+              { name: 'Saharanpur City', tag: 'District Headquarter' },
+              { name: 'Dehradun Highway', tag: 'NH-307 High Growth' },
+            ].map((loc) => (
+              <div key={loc.name} className="p-3.5 rounded-xl bg-slate-50 border border-slate-200 hover:border-gold/60 transition-all space-y-1">
+                <div className="text-xs sm:text-sm font-bold text-navy-dark">{loc.name}</div>
+                <div className="text-[10px] text-gold font-semibold uppercase tracking-wider">{loc.tag}</div>
+              </div>
+            ))}
           </div>
         </div>
       </section>

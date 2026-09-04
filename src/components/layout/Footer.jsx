@@ -16,8 +16,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-navy-light">
           <div className="space-y-4">
             <Logo variant="light" />
-            <p className="text-sm leading-relaxed text-slate-300 text-justify">
-              Mahalaxmi Property is your premier real-estate partner along the Dehradun–Saharanpur corridor. Delivering transparent property deals, verified listings, and unmatched local market expertise.
+            <p className="text-xs sm:text-sm leading-relaxed text-slate-300">
+              Mahalaxmi Property is the <strong>best property dealer</strong> and trusted <strong>property advisor in Biharigarh</strong>, Chutmalpur, Gagalheri, Behat & Saharanpur. Delivering 100% verified plots, commercial land, and residential houses along the Dehradun–Saharanpur Highway (NH-307).
             </p>
             <div className="pt-2 flex items-center gap-3">
               <div className="flex items-center gap-2 text-xs font-semibold text-gold bg-navy px-3 py-1.5 rounded-lg border border-gold/20">
@@ -44,14 +44,12 @@ const Footer = () => {
                 <li>
                   <Link to="/properties" className="hover:text-gold transition-colors">All Properties</Link>
                 </li>
-                <li>
-                  <Link to="/founder-message" className="hover:text-gold transition-colors">Founder Message</Link>
-                </li>
+              
                 <li>
                   <Link to="/services" className="hover:text-gold transition-colors">Our Services</Link>
                 </li>
                 <li>
-                  <Link to="/testimonials" className="hover:text-gold transition-colors">Testimonials</Link>
+                  <Link to="/blogs" className="hover:text-gold transition-colors">Real Estate Blogs</Link>
                 </li>
                 <li>
                   <Link to="/gallery" className="hover:text-gold transition-colors">Photo Gallery</Link>
@@ -130,11 +128,19 @@ const Footer = () => {
                   WhatsApp: +91 9917970750
                 </a>
               </li>
-              <li className="flex items-center gap-3">
-                <Mail className="w-4 h-4 text-gold shrink-0" />
-                <a href={`mailto:${settings.email}`} className="hover:text-gold transition-colors">
-                  {settings.email}
-                </a>
+              <li className="flex items-start gap-3">
+                <Mail className="w-4 h-4 text-gold shrink-0 mt-1" />
+                <div className="flex flex-col gap-1 text-xs">
+                  <a href="mailto:Direct@mahalaxmipropertiesindia.com" className="hover:text-gold transition-colors">
+                    Direct@mahalaxmipropertiesindia.com
+                  </a>
+                  <a href="mailto:Manager@mahalaxmipropertiesindia.com" className="hover:text-gold transition-colors">
+                    Manager@mahalaxmipropertiesindia.com
+                  </a>
+                  <a href="mailto:sales@mahalaxmipropertiesindia.com" className="hover:text-gold transition-colors">
+                    sales@mahalaxmipropertiesindia.com
+                  </a>
+                </div>
               </li>
             </ul>
           </div>

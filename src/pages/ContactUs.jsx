@@ -13,17 +13,17 @@ const ContactUs = () => {
   return (
     <>
       <SEO
-        title="Contact Mahalaxmi Property in Biharigarh Saharanpur"
-        description="Contact Mahalaxmi Property near Pencho Restaurant on Dehradun-Saharanpur Highway, Biharigarh, 247662, Saharanpur, UP. Call +91 9917970750 for details."
-        keywords="Contact Mahalaxmi Property, Biharigarh real estate office, Saharanpur property dealer contact, Pencho Restaurant property office address"
+        title="Contact Best Property Dealer & Advisor in Biharigarh | Mahalaxmi Property"
+        description="Contact Mahalaxmi Property - the best property dealer and property advisor in Biharigarh, Chutmalpur, Gagalheri & Saharanpur. Office near Pencho Restaurant, Dehradun Highway."
+        keywords="Contact best property dealer, property dealer in biharigarh contact, property advisor in biharigarh, Saharanpur real estate advisor, Chutmalpur property dealer office, Pencho Restaurant Biharigarh office"
       />
 
       <div className="bg-navy-dark text-white pt-32 pb-14 border-b border-gold/30">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <span className="text-xs font-bold text-gold uppercase tracking-widest block mb-2">GET IN TOUCH</span>
+          <span className="text-xs font-bold text-gold uppercase tracking-widest block mb-2">GET IN TOUCH WITH THE BEST PROPERTY DEALER</span>
           <h1 className="text-4xl font-bold font-heading">Contact Mahalaxmi Property</h1>
           <p className="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto mt-2">
-            Visit our office in Biharigarh or call/WhatsApp us for immediate property guidance.
+            Visit our office near Pencho Restaurant in Biharigarh or call/WhatsApp our expert <strong>property advisors</strong> for immediate real estate assistance across Biharigarh, Chutmalpur, Gagalheri & Saharanpur.
           </p>
         </div>
       </div>
@@ -71,14 +71,31 @@ const ContactUs = () => {
                 </div>
 
                 <div className="flex items-start gap-3.5">
-                  <div className="w-9 h-9 rounded-xl bg-navy text-gold flex items-center justify-center shrink-0">
+                  <div className="w-9 h-9 rounded-xl bg-navy text-gold flex items-center justify-center shrink-0 mt-0.5">
                     <Mail className="w-5 h-5" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-navy-dark">Email Address</h4>
-                    <a href={`mailto:${settings.email}`} className="text-gold font-semibold hover:underline">
-                      {settings.email}
-                    </a>
+                    <h4 className="font-bold text-navy-dark mb-1">Official Emails</h4>
+                    <div className="space-y-1 text-xs sm:text-sm">
+                      <div>
+                        <span className="text-slate-500 font-medium">Director: </span>
+                        <a href="mailto:Direct@mahalaxmipropertiesindia.com" className="text-gold font-semibold hover:underline">
+                          Direct@mahalaxmipropertiesindia.com
+                        </a>
+                      </div>
+                      <div>
+                        <span className="text-slate-500 font-medium">Manager: </span>
+                        <a href="mailto:Manager@mahalaxmipropertiesindia.com" className="text-gold font-semibold hover:underline">
+                          Manager@mahalaxmipropertiesindia.com
+                        </a>
+                      </div>
+                      <div>
+                        <span className="text-slate-500 font-medium">Sales & Support: </span>
+                        <a href="mailto:sales@mahalaxmipropertiesindia.com" className="text-gold font-semibold hover:underline">
+                          sales@mahalaxmipropertiesindia.com
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
@@ -91,26 +108,6 @@ const ContactUs = () => {
                     <div className="text-slate-600 mt-0.5">{settings.businessHours}</div>
                   </div>
                 </div>
-              </div>
-
-              {/* Action Buttons */}
-              <div className="pt-2 grid grid-cols-2 gap-3">
-                <a
-                  href={`tel:${settings.phone.replace(/\s+/g, '')}`}
-                  className="py-3 rounded-xl bg-navy text-gold font-bold text-xs flex items-center justify-center gap-1.5 shadow-md"
-                >
-                  <Phone className="w-4 h-4" />
-                  <span>Call Us</span>
-                </a>
-                <a
-                  href={whatsappUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="py-3 rounded-xl bg-emerald-600 text-white font-bold text-xs flex items-center justify-center gap-1.5 shadow-md"
-                >
-                  <WhatsAppIcon className="w-4 h-4 text-white" />
-                  <span>WhatsApp</span>
-                </a>
               </div>
             </div>
           </div>

@@ -97,7 +97,7 @@ const AdminSidebar = ({ mobileOpen, setMobileOpen }) => {
             </div>
             <div className="overflow-hidden">
               <div className="text-xs font-bold text-white truncate">{user?.name || 'Admin'}</div>
-              <div className="text-[10px] text-slate-400 truncate">{user?.email || 'admin@mahalaxmiproperty.com'}</div>
+              <div className="text-[10px] text-slate-400 truncate">{user?.email || 'admin@mahalaxmipropertiesindia.com'}</div>
             </div>
           </div>
 

@@ -5,6 +5,7 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 const Home = lazy(() => import('../pages/Home'));
 const AboutUs = lazy(() => import('../pages/AboutUs'));
 const FounderMessage = lazy(() => import('../pages/FounderMessage'));
+const ManagerMessage = lazy(() => import('../pages/ManagerMessage'));
 const AllProperties = lazy(() => import('../pages/AllProperties'));
 const PropertyDetails = lazy(() => import('../pages/PropertyDetails'));
 const ResidentialProperties = lazy(() => import('../pages/ResidentialProperties'));
@@ -15,6 +16,8 @@ const WhyChooseUsPage = lazy(() => import('../pages/WhyChooseUsPage'));
 const ServicesPage = lazy(() => import('../pages/ServicesPage'));
 const TestimonialsPage = lazy(() => import('../pages/TestimonialsPage'));
 const GalleryPage = lazy(() => import('../pages/GalleryPage'));
+const BlogPage = lazy(() => import('../pages/BlogPage'));
+const BlogDetails = lazy(() => import('../pages/BlogDetails'));
 const FAQPage = lazy(() => import('../pages/FAQPage'));
 const ContactUs = lazy(() => import('../pages/ContactUs'));
 const PrivacyPolicy = lazy(() => import('../pages/PrivacyPolicy'));
@@ -67,6 +70,7 @@ const AppRoutes = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<AboutUs />} />
                 <Route path="/founder-message" element={<FounderMessage />} />
+                <Route path="/manager-message" element={<ManagerMessage />} />
                 <Route path="/properties" element={<AllProperties />} />
                 <Route path="/properties/:slug" element={<PropertyDetails />} />
                 <Route path="/residential" element={<ResidentialProperties />} />
@@ -77,6 +81,8 @@ const AppRoutes = () => {
                 <Route path="/services" element={<ServicesPage />} />
                 <Route path="/testimonials" element={<TestimonialsPage />} />
                 <Route path="/gallery" element={<GalleryPage />} />
+                <Route path="/blogs" element={<BlogPage />} />
+                <Route path="/blogs/:slug" element={<BlogDetails />} />
                 <Route path="/faq" element={<FAQPage />} />
                 <Route path="/contact" element={<ContactUs />} />
                 <Route path="/privacy-policy" element={<PrivacyPolicy />} />

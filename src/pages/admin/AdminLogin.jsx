@@ -11,7 +11,7 @@ const AdminLogin = () => {
   const dispatch = useDispatch();
   const { isAuthenticated, loading, error } = useSelector((state) => state.auth);
 
-  const [email, setEmail] = useState('admin@mahalaxmiproperty.in');
+  const [email, setEmail] = useState('admin@mahalaxmipropertiesindia.com');
   const [password, setPassword] = useState('mahalaxmi@123456');
   const [showPassword, setShowPassword] = useState(false);
 
