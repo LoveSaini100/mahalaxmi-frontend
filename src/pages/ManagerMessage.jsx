@@ -10,9 +10,9 @@ const ManagerMessage = () => {
   return (
     <>
       <SEO
-        title="Manager's Message | Mr. Amrit Singh - Top Property Advisor in Biharigarh"
-        description="Read General Manager Mr. Amrit Singh's message on site visits, plot verification, and real estate guidance in Biharigarh, Chutmalpur, Gagalheri & Saharanpur."
-        keywords="Mr Amrit Singh, General Manager Mahalaxmi Property, Property dealer in Biharigarh, Property advisor in biharigarh, Property consultant Saharanpur, Chutmalpur land deals"
+        title="Manager Message | Best Property Advisor in Biharigarh & Best Property Dealer in Dehradun - Shree Mahalaxmi Properties and Construction (SMPC)"
+        description="General Manager Mr. Amrit Singh - Best Property Advisor in Biharigarh & Best property advisor in Dehradun for Property In Dehradun Expressway Corridor."
+        keywords="Best property Dealer in Biharigarh, Best Property Advisor in Biharigarh, Best Property in Biharigarh, Best Property Dealer in Dehradun, Best Property in Dehradun, Best property advisor in Dehradun, Property In Dehradun Expressway Corridor, Delhi Dehradun Expressway Property, Properties Delhi Dehradun Expressway way"
       />
 
       {/* Header Banner */}
@@ -21,7 +21,7 @@ const ManagerMessage = () => {
           <span className="text-xs font-bold text-gold uppercase tracking-widest block mb-2">OPERATIONAL EXCELLENCE & CLIENT ADVISORY</span>
           <h1 className="text-4xl font-bold font-heading">Manager's Message</h1>
           <p className="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto mt-2">
-            Delivering dedicated site visits, verified documentation, and transparent property advice across Biharigarh & Saharanpur.
+            Delivering dedicated site visits and transparent guidance from the <strong>Best Property Advisor in Biharigarh</strong> & <strong>Best Property Advisor in Dehradun</strong> for <strong>Delhi Dehradun Expressway Property</strong>.
           </p>
         </div>
       </div>
@@ -33,9 +33,10 @@ const ManagerMessage = () => {
             <div className="lg:col-span-5">
               <div className="relative aspect-[3/4] rounded-2xl overflow-hidden border-2 border-gold/40 shadow-xl">
                 <img
-                  src="/manager.png"
+                  src="/manager.webp"
                   onError={(e) => {
-                    e.target.src = '/director.png';
+                    e.currentTarget.onerror = null;
+                    e.currentTarget.src = '/manager.webp';
                   }}
                   alt="Mr. Amrit Singh - General Manager"
                   className="w-full h-full object-cover"
@@ -64,7 +65,7 @@ const ManagerMessage = () => {
                   Dear Valued Clients & Investors,
                 </p>
                 <p>
-                  At Mahalaxmi Property, operational clarity and customer trust are the heart of everything we do. As General Manager, my primary focus is ensuring that every interaction you have with our team—from your initial query to physical site visits and final property registration—is transparent, efficient, and completely stress-free.
+                  At Shree Mahalaxmi Properties and Construction (SMPC), operational clarity and customer trust are the heart of everything we do. As General Manager, my primary focus is ensuring that every interaction you have with our team—from your initial query to physical site visits and final property registration—is transparent, efficient, and completely stress-free.
                 </p>
                 <p>
                   We understand that buying a property along the Dehradun–Saharanpur highway belt is a major financial milestone. Our ground team thoroughly checks land boundaries, road access, title deeds, and legal clearances before listing any property.
@@ -80,7 +81,7 @@ const ManagerMessage = () => {
                 <div className="flex items-center justify-between">
                   <div>
                     <div className="text-base font-bold font-heading text-navy-dark">Mr. Amrit Singh</div>
-                    <div className="text-xs text-slate-500">General Manager | Mahalaxmi Property</div>
+                    <div className="text-xs text-slate-500">General Manager | Shree Mahalaxmi Properties and Construction (SMPC)</div>
                   </div>
                   <div className="font-heading italic text-xl text-gold font-bold">
                     ~ Client Service ~

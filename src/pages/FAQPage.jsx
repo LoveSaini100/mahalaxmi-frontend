@@ -21,12 +21,12 @@ const FAQPage = () => {
   const faqs = [
     {
       category: 'Buying & Selling',
-      q: '1. How can I enquire about a property listed on Mahalaxmi Property?',
-      a: 'You can submit an enquiry directly on any property details page using our online contact form, call us directly at +91 9917970750, or click the WhatsApp button on our website to chat with our real estate experts instantly.',
+      q: '1. How can I enquire about a property listed on Shree Mahalaxmi Properties and Construction (SMPC)?',
+      a: 'You can submit an enquiry directly on any property details page using our online contact form, call us directly at +91 75000 87299, or click the WhatsApp button on our website to chat with our real estate experts instantly.',
     },
     {
       category: 'Verification',
-      q: '2. Are all properties listed with Mahalaxmi Property verified?',
+      q: '2. Are all properties listed with Shree Mahalaxmi Properties and Construction (SMPC) verified?',
       a: 'Yes, every residential house, villa, commercial space, and land plot in our portfolio undergoes title inspection and preliminary legal checks so you can invest with 100% peace of mind.',
     },
     {
@@ -36,7 +36,7 @@ const FAQPage = () => {
     },
     {
       category: 'Location',
-      q: '4. Where is the Mahalaxmi Property office located?',
+      q: '4. Where is the Shree Mahalaxmi Properties and Construction (SMPC) office located?',
       a: 'Our main office is located near Pencho Restaurant, Dehradun–Saharanpur Highway, Biharigarh, Saharanpur, Uttar Pradesh (Pincode: 247662). You are welcome to visit us during working hours (9:00 AM – 8:00 PM).',
     },
     {
@@ -51,7 +51,7 @@ const FAQPage = () => {
     },
     {
       category: 'Buying & Selling',
-      q: '7. Can I list and sell my property or agricultural land through Mahalaxmi Property?',
+      q: '7. Can I list and sell my property or agricultural land through Shree Mahalaxmi Properties and Construction (SMPC)?',
       a: 'Yes, if you own residential, commercial, or agricultural land in Biharigarh, Saharanpur, or surrounding highway areas, contact our team. We will inspect, evaluate, and market your property to verified buyers.',
     },
     {
@@ -62,11 +62,11 @@ const FAQPage = () => {
     {
       category: 'Pricing & Valuation',
       q: '9. How do I know the current market price of a plot in Biharigarh?',
-      a: 'Property rates vary based on highway proximity, road frontage width, and sector growth. Contact our advisory team at +91 9917970750 for an accurate, up-to-date market evaluation of land rates.',
+      a: 'Property rates vary based on highway proximity, road frontage width, and sector growth. Contact our advisory team at +91 75000 87299 for an accurate, up-to-date market evaluation of land rates.',
     },
     {
       category: 'Home Loans',
-      q: '10. Are home loan facilities available for buying properties through Mahalaxmi Property?',
+      q: '10. Are home loan facilities available for buying properties through Shree Mahalaxmi Properties and Construction (SMPC)?',
       a: 'Yes, we assist eligible buyers in connecting with leading nationalized and private banks (such as SBI, HDFC, ICICI, PNB) for smooth home loan approval and plot purchase loan documentation.',
     },
     {
@@ -91,8 +91,8 @@ const FAQPage = () => {
     },
     {
       category: 'Support',
-      q: '15. How can I get in touch with Mahalaxmi Property customer support?',
-      a: 'You can call our hotline at +91 9917970750, message us on WhatsApp (+91 9917970750), email us at sales@mahalaxmipropertiesindia.com (or Direct@mahalaxmipropertiesindia.com / Manager@mahalaxmipropertiesindia.com), or fill out the quick form on our Contact Us page.',
+      q: '15. How can I get in touch with Shree Mahalaxmi Properties and Construction (SMPC) customer support?',
+      a: 'You can call our hotline at +91 75000 87299, message us on WhatsApp (+91 75000 87299), email us at sales@mahalaxmipropertiesindia.com (or Direct@mahalaxmipropertiesindia.com / Manager@mahalaxmipropertiesindia.com), or fill out the quick form on our Contact Us page.',
     },
   ];
 
@@ -110,9 +110,9 @@ const FAQPage = () => {
   return (
     <>
       <SEO
-        title="Frequently Asked Questions | Mahalaxmi Biharigarh UP"
-        description="Find answers to 15 FAQs on buying plots, legal registry, and site visits near Pencho Restaurant on Dehradun-Saharanpur Highway, Biharigarh, UP."
-        keywords="Real estate FAQs Biharigarh, Property registry answers Saharanpur, Plot site visit FAQ Dehradun Highway"
+        title="FAQ | Best Property Dealer in Biharigarh & Best Property Advisor in Dehradun - Shree Mahalaxmi Properties and Construction (SMPC)"
+        description="Frequently Asked Questions answered by the Best Property Advisor in Biharigarh & Best property advisor in Dehradun regarding Property In Dehradun Expressway Corridor."
+        keywords="Shree Mahalaxmi Properties and Construction, SMPC, Best property Dealer in Biharigarh, Best Property Advisor in Biharigarh, Best Property in Biharigarh, Best Property Dealer in Dehradun, Best Property in Dehradun, Best property advisor in Dehradun, Property In Dehradun Expressway Corridor, Delhi Dehradun Expressway Property, Properties Delhi Dehradun Expressway way"
       />
 
       {/* Header Banner */}
@@ -121,7 +121,7 @@ const FAQPage = () => {
           <span className="text-xs font-bold text-gold uppercase tracking-widest block">HELP & KNOWLEDGE CENTER</span>
           <h1 className="text-3xl sm:text-5xl font-bold">Frequently Asked Questions</h1>
           <p className="text-xs sm:text-sm text-slate-300 max-w-2xl mx-auto">
-            Got questions about buying plots, villas, legal documentation, or site visits along Dehradun-Saharanpur Highway? We have compiled 15 comprehensive answers below.
+            Answers from the <strong>Best Property Advisor in Biharigarh</strong> & <strong>Best Property Dealer in Dehradun</strong> on buying <strong>Best Property in Biharigarh</strong>, <strong>Best Property in Dehradun</strong> & <strong>Property In Dehradun Expressway Corridor</strong>.
           </p>
         </div>
       </div>
@@ -216,16 +216,16 @@ const FAQPage = () => {
 
           <div className="flex flex-row items-center justify-center gap-2 sm:gap-3 w-full sm:w-auto">
             <a
-              href="tel:+919917970750"
+              href="tel:+917500087299"
               className="flex-1 sm:flex-initial inline-flex items-center justify-center gap-1.5 sm:gap-2 px-3 sm:px-5 py-2.5 sm:py-3 rounded-xl bg-white text-navy font-bold text-xs hover:bg-slate-100 transition-all shadow-md shrink-0 whitespace-nowrap"
             >
               <PhoneCall className="w-4 h-4 text-gold shrink-0" />
-              <span className="hidden sm:inline">Call +91 9917970750</span>
+              <span className="hidden sm:inline">Call +91 75000 87299</span>
               <span className="sm:hidden">Call Us</span>
             </a>
 
             <a
-              href={getWhatsAppLink('', 'Hello Mahalaxmi Property, I have a question regarding property deals in Biharigarh.')}
+              href={getWhatsAppLink('', 'Hello Shree Mahalaxmi Properties and Construction (SMPC), I have a question regarding property deals in Biharigarh.')}
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 sm:flex-initial inline-flex items-center justify-center gap-1.5 sm:gap-2 px-3 sm:px-5 py-2.5 sm:py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs transition-all shadow-md shrink-0 whitespace-nowrap"

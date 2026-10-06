@@ -6,9 +6,9 @@ const TermsConditions = () => {
   return (
     <div className="font-sans">
       <SEO
-        title="Terms & Conditions | Mahalaxmi Property Biharigarh"
-        description="Read Terms & Conditions of Mahalaxmi Property near Pencho Restaurant on Dehradun-Saharanpur Highway, Biharigarh, Saharanpur, UP 247662. Contact us."
-        keywords="Terms and conditions Mahalaxmi Property, Real estate agreement terms Biharigarh, Property service rules Saharanpur"
+        title="Terms & Conditions | Shree Mahalaxmi Properties and Construction (SMPC)"
+        description="Read Terms & Conditions of Shree Mahalaxmi Properties and Construction (SMPC) near Pencho Restaurant on Dehradun-Saharanpur Highway, Biharigarh, Saharanpur, UP 247662. Contact us."
+        keywords="Terms and conditions Shree Mahalaxmi Properties and Construction, SMPC, Real estate agreement terms Biharigarh, Property service rules Saharanpur"
       />
 
       {/* Header Banner */}
@@ -32,7 +32,7 @@ const TermsConditions = () => {
             <h3 className="text-base sm:text-lg font-bold font-sans text-navy-dark">1. Acceptance of Terms</h3>
           </div>
           <p>
-            Welcome to <strong>Mahalaxmi Property</strong>. These Terms & Conditions ("Terms") constitute a legally binding agreement between you ("User," "Client," or "Visitor") and Mahalaxmi Property governing your access to and use of our website, real estate consultation services, property listings, and site visit scheduling along the Dehradun–Saharanpur highway corridor.
+            Welcome to <strong>Shree Mahalaxmi Properties and Construction (SMPC)</strong>. These Terms & Conditions ("Terms") constitute a legally binding agreement between you ("User," "Client," or "Visitor") and Shree Mahalaxmi Properties and Construction (SMPC) governing your access to and use of our website, real estate consultation services, property listings, and site visit scheduling along the Dehradun–Saharanpur highway corridor.
           </p>
           <p>
             By browsing our website, submitting an enquiry, or engaging our consultancy services, you acknowledge that you have read, understood, and agreed to be bound by these Terms. If you do not agree with any portion of these Terms, please discontinue using our website and services immediately.
@@ -46,7 +46,7 @@ const TermsConditions = () => {
             <h3 className="text-base sm:text-lg font-bold font-sans text-navy-dark">2. Property Listings & Accuracy Disclaimer</h3>
           </div>
           <p>
-            Mahalaxmi Property strives to ensure that all property details, prices, area measurements (expressed in Sq.Ft, Sq.Yards, Bigha, or Acres), amenities, and photographs published on this website are accurate and up to date. However:
+            Shree Mahalaxmi Properties and Construction (SMPC) strives to ensure that all property details, prices, area measurements (expressed in Sq.Ft, Sq.Yards, Bigha, or Acres), amenities, and photographs published on this website are accurate and up to date. However:
           </p>
           <ul className="space-y-2.5 pl-2">
             <li className="flex items-start gap-2">
@@ -71,7 +71,7 @@ const TermsConditions = () => {
             <h4 className="text-base sm:text-lg font-bold font-sans text-navy-dark">3. Site Visits & Advisory Services</h4>
           </div>
           <p>
-            Mahalaxmi Property offers guided site visits to plots, residential houses, and commercial land listings. Site visits are arranged free of cost as a courtesy service. Visitors must follow safety guidelines during field inspections of undeveloped or under-construction land plots.
+            Shree Mahalaxmi Properties and Construction (SMPC) offers guided site visits to plots, residential houses, and commercial land listings. Site visits are arranged free of cost as a courtesy service. Visitors must follow safety guidelines during field inspections of undeveloped or under-construction land plots.
           </p>
           <p>
             Our real estate advisory team assists clients with legal due diligence, title checking, and bank loan clearance. Final purchasing decisions remain the sole responsibility of the buyer.
@@ -95,7 +95,7 @@ const TermsConditions = () => {
             </li>
             <li className="flex items-start gap-2">
               <span className="text-gold font-bold">•</span>
-              <span><strong>Zero Hidden Costs:</strong> Mahalaxmi Property operates with 100% price transparency. All consultancy terms and transaction fees are agreed upon upfront.</span>
+              <span><strong>Zero Hidden Costs:</strong> Shree Mahalaxmi Properties and Construction (SMPC) operates with 100% price transparency. All consultancy terms and transaction fees are agreed upon upfront.</span>
             </li>
           </ul>
         </div>
@@ -107,7 +107,7 @@ const TermsConditions = () => {
             <h4 className="text-base sm:text-lg font-bold font-sans text-navy-dark">5. Intellectual Property & Website Use</h4>
           </div>
           <p>
-            All content on this website—including logos, text, software, layout design, images, and property descriptions—is the exclusive intellectual property of Mahalaxmi Property. Users are strictly prohibited from copying, scraping, reproducing, or commercially exploiting any material without prior written consent.
+            All content on this website—including logos, text, software, layout design, images, and property descriptions—is the exclusive intellectual property of Shree Mahalaxmi Properties and Construction (SMPC). Users are strictly prohibited from copying, scraping, reproducing, or commercially exploiting any material without prior written consent.
           </p>
         </div>
 
@@ -118,7 +118,7 @@ const TermsConditions = () => {
             These Terms & Conditions are governed by and construed in accordance with the laws of India. Any legal disputes arising out of or in connection with these Terms or our services shall be subject to the exclusive jurisdiction of the courts of <strong>Saharanpur, Uttar Pradesh, India</strong>.
           </p>
           <div className="pt-2 text-xs text-slate-300 space-y-1 border-t border-white/10 mt-3 font-sans">
-            <p><strong>Hotline / WhatsApp:</strong> +91 9917970750</p>
+            <p><strong>Hotline / WhatsApp:</strong> +91 75000 87299</p>
             <p><strong>Official Emails:</strong> Direct@mahalaxmipropertiesindia.com | Manager@mahalaxmipropertiesindia.com | sales@mahalaxmipropertiesindia.com</p>
             <p><strong>Address:</strong> Near Pencho Restaurant, Dehradun–Saharanpur Highway, Biharigarh, Saharanpur, UP - 247662</p>
           </div>

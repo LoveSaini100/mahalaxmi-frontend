@@ -16,17 +16,17 @@ const WhyChooseUsPage = () => {
   return (
     <>
       <SEO
-        title="Why Choose Mahalaxmi Property in Biharigarh | UP"
-        description="Learn why buyers trust Mahalaxmi Property near Pencho Restaurant on Dehradun-Saharanpur Highway, Biharigarh, Saharanpur for clear title land deals."
-        keywords="Trusted property dealer Biharigarh, Verified title plots Saharanpur, Direct owner land deals, Zero brokerage real estate Saharanpur"
+        title="Why Choose Best Property Dealer in Biharigarh & Best Property Advisor in Dehradun | Shree Mahalaxmi Properties and Construction (SMPC)"
+        description="Why choose Shree Mahalaxmi Properties and Construction (SMPC) - Best property Dealer in Biharigarh & Best Property Advisor in Dehradun. Find Best Property in Biharigarh & Property In Dehradun Expressway Corridor."
+        keywords="Shree Mahalaxmi Properties and Construction, SMPC, Best property Dealer in Biharigarh, Best Property Advisor in Biharigarh, Best Property in Biharigarh, Best Property Dealer in Dehradun, Best Property in Dehradun, Best property advisor in Dehradun, Property In Dehradun Expressway Corridor, Delhi Dehradun Expressway Property, Properties Delhi Dehradun Expressway way"
       />
 
       <div className="bg-navy-dark text-white pt-32 pb-14 border-b border-gold/30">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <span className="text-xs font-bold text-gold uppercase tracking-widest block mb-2">OUR ADVANTAGE</span>
-          <h1 className="text-4xl font-bold font-heading">Why Choose Mahalaxmi Property</h1>
+          <h1 className="text-4xl font-bold font-heading">Why Choose Shree Mahalaxmi Properties &amp; Construction (SMPC)</h1>
           <p className="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto mt-2">
-            6 core pillars that make Mahalaxmi Property the premier real estate choice.
+            Pillars that make us the <strong>Best property Dealer in Biharigarh</strong> & <strong>Best Property Advisor in Dehradun</strong> for <strong>Properties Delhi Dehradun Expressway way</strong>.
           </p>
         </div>
       </div>

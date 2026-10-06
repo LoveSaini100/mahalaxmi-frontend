@@ -5,6 +5,60 @@ import SEO from '../components/common/SEO';
 import { getImageUrl } from '../services/api';
 import { Maximize, X, Filter } from 'lucide-react';
 
+// Hardcoded static imports for upload photos to prevent proxy/network errors
+import img1 from '../assets/gallery/gallery-1787313855019-26128.webp';
+import img2 from '../assets/gallery/gallery-1787313895142-80506.webp';
+import img3 from '../assets/gallery/gallery-1787313917585-50302.webp';
+import img4 from '../assets/gallery/gallery-1787313936168-23629.webp';
+import img5 from '../assets/gallery/gallery-1787314001615-14259.webp';
+import img6 from '../assets/gallery/gallery-1787314027711-97877.webp';
+
+// Hardcoded photos from uploads folder
+const hardcodedGalleryPhotos = [
+  {
+    _id: 'upload-gallery-1',
+    title: 'Highway Corridor Property View',
+    category: 'Commercial',
+    url: img1,
+    description: 'Prime commercial land facing Saharanpur-Dehradun Highway.'
+  },
+  {
+    _id: 'upload-gallery-2',
+    title: 'Fertile Agricultural Land Plot',
+    category: 'Plots',
+    url: img2,
+    description: 'Level agricultural plot with perimeter fencing and clear demarcation.'
+  },
+  {
+    _id: 'upload-gallery-3',
+    title: 'Residential Plot Development',
+    category: 'Residential',
+    url: img3,
+    description: 'Ready-to-build clear title residential land near Biharigarh.'
+  },
+  {
+    _id: 'upload-gallery-4',
+    title: 'Commercial Showroom Land',
+    category: 'Commercial',
+    url: img4,
+    description: 'High visibility road frontage plot for business & showroom.'
+  },
+  {
+    _id: 'upload-gallery-5',
+    title: 'Luxury Farmhouse Land',
+    category: 'Villa',
+    url: img5,
+    description: 'Peaceful green setting ideal for private farmhouse retreat.'
+  },
+  {
+    _id: 'upload-gallery-6',
+    title: 'Delhi-Dehradun Expressway Plot',
+    category: 'Plots',
+    url: img6,
+    description: 'Prime connectivity plot close to the upcoming Delhi-Dehradun Expressway.'
+  }
+];
+
 const GalleryPage = () => {
   const dispatch = useDispatch();
   const { list: galleryItems = [], loading } = useSelector((state) => state.gallery);
@@ -15,18 +69,30 @@ const GalleryPage = () => {
     dispatch(fetchGalleryThunk());
   }, [dispatch]);
 
+  // Use backend images when provided, otherwise fallback to hardcoded photos
+  const displayItems =
+    Array.isArray(galleryItems) && galleryItems.length > 0
+      ? galleryItems
+      : hardcodedGalleryPhotos;
+
   const categories = ['All', 'Villa', 'Residential', 'Commercial', 'Plots', 'General'];
 
   const filteredItems = activeCategory === 'All'
-    ? galleryItems
-    : galleryItems.filter((item) => item.category === activeCategory);
+    ? displayItems
+    : displayItems.filter((item) => {
+        const itemCat = (item.category || '').toLowerCase();
+        const active = activeCategory.toLowerCase();
+        if (active === 'plots') return itemCat.includes('plot') || itemCat.includes('land');
+        if (active === 'villa') return itemCat.includes('villa') || itemCat.includes('farmhouse') || itemCat.includes('house');
+        return itemCat.includes(active);
+      });
 
   return (
     <>
       <SEO
-        title="Property Photo Gallery in Biharigarh | Mahalaxmi UP"
-        description="View photos of verified villas, plots, and commercial land near Pencho Restaurant on Dehradun-Saharanpur Highway, Biharigarh, Saharanpur, UP 247662."
-        keywords="Property photos Biharigarh, Plot images Saharanpur, Villa photos Dehradun Highway, Real estate gallery 247662"
+        title="Property Gallery | Best Property in Biharigarh & Best Property in Dehradun"
+        description="Visual tour of Best Property in Biharigarh & Best Property in Dehradun. Explore Property In Dehradun Expressway Corridor & Delhi Dehradun Expressway Property."
+        keywords="Best property Dealer in Biharigarh, Best Property Advisor in Biharigarh, Best Property in Biharigarh, Best Property Dealer in Dehradun, Best Property in Dehradun, Best property advisor in Dehradun, Property In Dehradun Expressway Corridor, Delhi Dehradun Expressway Property, Properties Delhi Dehradun Expressway way"
       />
 
       <div className="bg-navy-dark text-white pt-32 pb-14 border-b border-gold/30">
@@ -34,7 +100,7 @@ const GalleryPage = () => {
           <span className="text-xs font-bold text-gold uppercase tracking-widest block mb-2">VISUAL TOUR</span>
           <h1 className="text-4xl font-bold font-heading">Property Photo Gallery</h1>
           <p className="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto mt-2">
-            Explore high-resolution captures of our residential, commercial, and land listings across Biharigarh & Dehradun highway.
+            Explore <strong>Best Property in Biharigarh</strong> & <strong>Best Property in Dehradun</strong> along the <strong>Properties Delhi Dehradun Expressway way</strong>.
           </p>
         </div>
       </div>
@@ -61,7 +127,7 @@ const GalleryPage = () => {
           </div>
 
           {/* Gallery Grid */}
-          {loading ? (
+          {loading && (!displayItems || displayItems.length === 0) ? (
             <div className="text-center py-16 text-slate-400 text-xs">Loading photo gallery...</div>
           ) : (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -74,6 +140,11 @@ const GalleryPage = () => {
                   <img
                     src={getImageUrl(item.url)}
                     alt={item.title}
+                    onError={(e) => {
+                      e.currentTarget.onerror = null;
+                      const fallback = img1;
+                      e.currentTarget.src = fallback;
+                    }}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                   <span className="absolute top-3 left-3 px-3 py-1 rounded-full text-[10px] font-bold bg-navy-dark/90 text-gold shadow-md z-10">
@@ -118,6 +189,10 @@ const GalleryPage = () => {
               <img
                 src={getImageUrl(selectedImage.url)}
                 alt={selectedImage.title}
+                onError={(e) => {
+                  e.currentTarget.onerror = null;
+                  e.currentTarget.src = img1;
+                }}
                 className="max-w-full max-h-[75vh] object-contain rounded-2xl shadow-2xl mx-auto border border-white/20"
               />
               <div className="text-center text-white space-y-1">

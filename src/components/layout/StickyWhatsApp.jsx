@@ -5,18 +5,16 @@ import WhatsAppIcon from '../common/WhatsAppIcon';
 import { Phone } from 'lucide-react';
 
 const StickyWhatsApp = () => {
-  const settings = useSelector((state) => state.settings.data);
   const whatsappUrl = getWhatsAppLink();
-  const phone = settings?.phone ? settings.phone.replace(/\s+/g, '') : '+919917970750';
 
   return (
     <div className="fixed bottom-6 right-4 sm:right-4 z-40 flex flex-col gap-3 items-center">
       {/* Floating Call Button */}
       <a
-        href={`tel:${phone}`}
+        href="tel:+917500087299"
         className="group relative flex items-center justify-center w-12 h-12 rounded-full bg-navy hover:bg-navy-dark text-white shadow-2xl transition-all duration-300 hover:scale-110 active:scale-95 border-2 border-gold/60"
         aria-label="Call Us Now"
-        title={`Call ${settings?.phone || '+91 9917970750'}`}
+        title="Call +91 75000 87299"
       >
         <Phone className="w-5 h-5 text-white group-hover:rotate-12 transition-transform" />
         <span className="absolute -top-1 -right-1 w-3 h-3 bg-gold rounded-full animate-ping" />

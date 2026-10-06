@@ -2,9 +2,9 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
 const SEO = ({ title, description, keywords, image, url }) => {
-  const defaultTitle = 'Real Estate in Biharigarh Saharanpur | Mahalaxmi';
-  const defaultDesc = 'Find verified plots, villas, and commercial land near Pencho Restaurant on Dehradun-Saharanpur Highway, Biharigarh. Contact Mahalaxmi Property today.';
-  const defaultKeywords = 'Real Estate Biharigarh, Property in Saharanpur, Dehradun Saharanpur Highway plots, Pencho Restaurant Biharigarh, Land in 247662, Chhutmalpur property, Mohand plots, Gagalheri land, Commercial plot Biharigarh, Villa Saharanpur, Mahalaxmi Property';
+  const defaultTitle = 'Best Property Dealer in Biharigarh & Dehradun | Delhi Dehradun Expressway Property - Shree Mahalaxmi Properties and Construction (SMPC)';
+  const defaultDesc = 'Shree Mahalaxmi Properties and Construction (SMPC) is the Best property Dealer in Biharigarh & Best Property Advisor in Dehradun. Discover Best Property in Biharigarh, Best Property in Dehradun & Property In Dehradun Expressway Corridor.';
+  const defaultKeywords = 'Shree Mahalaxmi Properties and Construction, SMPC, Best property Dealer in Biharigarh, Best Property Advisor in Biharigarh, Best Property in Biharigarh, Best Property Dealer in Dehradun, Best Property in Dehradun, Best property advisor in Dehradun, Property In Dehradun Expressway Corridor, Delhi Dehradun Expressway Property, Properties Delhi Dehradun Expressway way, Real Estate Biharigarh, Dehradun Saharanpur Highway plots, Pencho Restaurant Biharigarh, Commercial plot Biharigarh';
 
   const pageTitle = title || defaultTitle;
   const pageDesc = description || defaultDesc;

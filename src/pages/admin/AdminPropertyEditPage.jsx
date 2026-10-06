@@ -23,7 +23,7 @@ const AdminPropertyEditPage = () => {
 
   return (
     <>
-      <SEO title={`Edit ${property.title} - Mahalaxmi Admin`} />
+      <SEO title={`Edit ${property.title} - Shree Mahalaxmi Properties & Construction (SMPC)`} />
       <PropertyForm initialData={property} isEdit={true} />
     </>
   );

@@ -29,9 +29,9 @@ const AboutUs = () => {
   return (
     <>
       <SEO
-        title="About Mahalaxmi Property | Best Property Dealer & Property Advisor in Biharigarh"
-        description="Learn why Mahalaxmi Property is recognized as the best property dealer and trusted property advisor in Biharigarh, Chutmalpur, Gagalheri, Behat & Saharanpur."
-        keywords="Best property dealer, property dealer in biharigarh, property advisor, property advisor in biharigarh, real estate agent Saharanpur, Chutmalpur property dealer, Gagalheri property advisor, Behat land dealer, Dehradun Highway plots"
+        title="Best Property Dealer in Biharigarh & Best Property Advisor in Dehradun | Shree Mahalaxmi Properties and Construction (SMPC)"
+        description="Shree Mahalaxmi Properties and Construction (SMPC) is the Best property Dealer in Biharigarh & Best Property Advisor in Dehradun. Discover Best Property in Biharigarh, Best Property in Dehradun & Property In Dehradun Expressway Corridor."
+        keywords="Shree Mahalaxmi Properties and Construction, SMPC, Best property Dealer in Biharigarh, Best Property Advisor in Biharigarh, Best Property in Biharigarh, Best Property Dealer in Dehradun, Best Property in Dehradun, Best property advisor in Dehradun, Property In Dehradun Expressway Corridor, Delhi Dehradun Expressway Property, Properties Delhi Dehradun Expressway way, Shree Mahalaxmi Property"
       />
 
       {/* ================= HEADER BANNER ================= */}
@@ -42,13 +42,13 @@ const AboutUs = () => {
         <div className="max-w-7xl mx-auto px-4 text-center relative z-10 space-y-3">
           <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-navy border border-gold/40 text-gold text-xs font-bold uppercase tracking-widest backdrop-blur-md">
             <Award className="w-4 h-4 text-gold" />
-            <span>BEST PROPERTY DEALER & ADVISOR IN BIHARIGARH</span>
+            <span>BEST PROPERTY DEALER & PROPERTY ADVISOR IN BIHARIGARH & DEHRADUN</span>
           </span>
           <h1 className="text-4xl sm:text-5xl font-bold font-heading text-white">
-            About Mahalaxmi Property
+            About Shree Mahalaxmi Properties &amp; Construction (SMPC)
           </h1>
           <p className="text-xs sm:text-sm text-slate-300 max-w-2xl mx-auto leading-relaxed">
-            Recognized as the <strong>best property dealer in Biharigarh</strong> and premier <strong>property advisor in Saharanpur</strong>, dedicated to absolute transparency, legal safety, and high-value land investments.
+            Recognized as the <strong>Best property Dealer in Biharigarh</strong> and <strong>Best Property Advisor in Dehradun</strong>. We offer the <strong>Best Property in Biharigarh</strong> and <strong>Best Property in Dehradun</strong> along the <strong>Delhi Dehradun Expressway Property</strong> corridor.
           </p>
         </div>
       </div>
@@ -64,10 +64,10 @@ const AboutUs = () => {
               Building Trust & Realizing Property Dreams
             </h2>
             <p className="text-xs sm:text-sm text-slate-600 leading-relaxed text-justify">
-              Mahalaxmi Property operates with a clear objective: to bring absolute integrity, transparent pricing, and expert guidance to buyers, sellers, and land investors along the Dehradun–Saharanpur Highway corridor in Biharigarh.
+              Shree Mahalaxmi Properties and Construction (SMPC) operates with a clear objective: to bring absolute integrity, transparent pricing, and expert guidance to buyers, sellers, and land investors along the Dehradun–Saharanpur Highway corridor in Biharigarh.
             </p>
             <p className="text-xs sm:text-sm text-slate-600 leading-relaxed text-justify">
-              Headquartered near Pencho Restaurant, we specialize in prime highway commercial land, verified residential plots, luxury independent villas, and agricultural holdings. Every property listed under Mahalaxmi Property undergoes rigorous legal title verification so you invest with complete peace of mind.
+              Headquartered near Pencho Restaurant, we specialize in prime highway commercial land, verified residential plots, luxury independent villas, and agricultural holdings. Every property listed under Shree Mahalaxmi Properties and Construction (SMPC) undergoes rigorous legal title verification so you invest with complete peace of mind.
             </p>
 
             <div className="grid grid-cols-2 gap-4 pt-2">
@@ -85,7 +85,7 @@ const AboutUs = () => {
           <div className="relative rounded-3xl overflow-hidden shadow-2xl border-2 border-gold/30">
             <img
               src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
-              alt="Mahalaxmi Property Office & Properties"
+              alt="Shree Mahalaxmi Properties and Construction Office & Properties"
               className="w-full h-auto object-cover"
             />
             <div className="absolute bottom-4 left-4 right-4 p-2 rounded-2xl glass-dark text-white ">
@@ -304,7 +304,7 @@ const AboutUs = () => {
             Ready to Find Your Ideal Property?
           </h4>
           <p className="text-xs sm:text-sm text-slate-300 max-w-2xl mx-auto">
-            Get in touch with Mahalaxmi Property today for expert guidance, verified listings, and tailored real estate deals in Biharigarh.
+            Get in touch with Shree Mahalaxmi Properties and Construction (SMPC) today for expert guidance, verified listings, and tailored real estate deals in Biharigarh.
           </p>
           <div className="flex flex-row items-center justify-center gap-2 sm:gap-4 pt-2 w-full sm:w-auto">
             <Link

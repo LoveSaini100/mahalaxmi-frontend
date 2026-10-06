@@ -66,7 +66,7 @@ const AdminPropertiesList = () => {
 
   return (
     <>
-      <SEO title="Properties Admin - Mahalaxmi Property" />
+      <SEO title="Properties Admin - Shree Mahalaxmi Properties & Construction (SMPC)" />
 
       <div className="space-y-6">
         <div className="flex flex-row sm:flex-row sm:items-center justify-between gap-1 md:gap-4 border-b-2 border-gtay-400 pb-2">

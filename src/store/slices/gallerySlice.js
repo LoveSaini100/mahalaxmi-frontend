@@ -6,7 +6,7 @@ export const fetchGalleryThunk = createAsyncThunk(
   async (_, { rejectWithValue }) => {
     try {
       const response = await API.get('/gallery');
-      return response.data.data;
+      return response.data?.data || response.data;
     } catch (error) {
       return rejectWithValue(error.message);
     }
@@ -18,7 +18,7 @@ export const createGalleryItemThunk = createAsyncThunk(
   async (galleryData, { rejectWithValue }) => {
     try {
       const response = await API.post('/gallery', galleryData);
-      return response.data.data;
+      return response.data?.data || response.data;
     } catch (error) {
       return rejectWithValue(error.message);
     }
@@ -30,7 +30,7 @@ export const updateGalleryItemThunk = createAsyncThunk(
   async ({ id, galleryData }, { rejectWithValue }) => {
     try {
       const response = await API.put(`/gallery/${id}`, galleryData);
-      return response.data.data;
+      return response.data?.data || response.data;
     } catch (error) {
       return rejectWithValue(error.message);
     }

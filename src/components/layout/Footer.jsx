@@ -14,15 +14,15 @@ const Footer = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-navy-light">
-          <div className="space-y-4">
+          <div className="space-y-2">
             <Logo variant="light" />
-            <p className="text-xs sm:text-sm leading-relaxed text-slate-300">
-              Mahalaxmi Property is the <strong>best property dealer</strong> and trusted <strong>property advisor in Biharigarh</strong>, Chutmalpur, Gagalheri, Behat & Saharanpur. Delivering 100% verified plots, commercial land, and residential houses along the Dehradun–Saharanpur Highway (NH-307).
+            <p className="text-xs sm:text-sm leading-relaxed text-slate-300 text-justify">
+              Shree Mahalaxmi Properties and Construction (SMPC) is the <strong>Best property Dealer in Biharigarh</strong> & <strong>Best Property Advisor in Dehradun</strong>. We offer the <strong>Best Property in Biharigarh</strong>, <strong>Best Property in Dehradun</strong>, <strong>Property In Dehradun Expressway Corridor</strong> & <strong>Properties Delhi Dehradun Expressway way</strong>.
             </p>
             <div className="pt-2 flex items-center gap-3">
               <div className="flex items-center gap-2 text-xs font-semibold text-gold bg-navy px-3 py-1.5 rounded-lg border border-gold/20">
                 <ShieldCheck className="w-4 h-4 text-gold" />
-                Trusted & Local Specialist
+                Best Property Advisor in Biharigarh & Dehradun
               </div>
             </div>
           </div>
@@ -111,32 +111,30 @@ const Footer = () => {
                 <MapPin className="w-4 h-4 text-gold shrink-0 mt-0.5" />
                 <span className="text-slate-300 leading-normal">{settings.address}</span>
               </li>
-              <li className="flex items-center gap-3">
-                <Phone className="w-4 h-4 text-gold shrink-0" />
-                <a href={`tel:${settings.phone.replace(/\s+/g, '')}`} className="hover:text-gold transition-colors">
-                  {settings.phone}
+              <li className="flex items-start gap-3">
+                <Phone className="w-4 h-4 text-gold shrink-0 mt-0.5" />
+                <a href="tel:+917500087299" className="hover:text-gold transition-colors">
+                  +91 75000 87299
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <WhatsAppIcon className="w-4 h-4 text-emerald-400 shrink-0" />
                 <a
-                  href={`https://wa.me/919917970750`}
+                  href={`https://wa.me/917500087299`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-emerald-400 transition-colors"
                 >
-                  WhatsApp: +91 9917970750
+                  WhatsApp: +91 75000 87299
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="w-4 h-4 text-gold shrink-0 mt-1" />
                 <div className="flex flex-col gap-1 text-xs">
-                  <a href="mailto:Direct@mahalaxmipropertiesindia.com" className="hover:text-gold transition-colors">
-                    Direct@mahalaxmipropertiesindia.com
+                  <a href="mailto:info@mahalaxmipropertiesindia.com" className="hover:text-gold transition-colors">
+                    info@mahalaxmipropertiesindia.com
                   </a>
-                  <a href="mailto:Manager@mahalaxmipropertiesindia.com" className="hover:text-gold transition-colors">
-                    Manager@mahalaxmipropertiesindia.com
-                  </a>
+                  
                   <a href="mailto:sales@mahalaxmipropertiesindia.com" className="hover:text-gold transition-colors">
                     sales@mahalaxmipropertiesindia.com
                   </a>
@@ -149,7 +147,7 @@ const Footer = () => {
         {/* Bottom Copyright & Legal */}
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-400">
           <div className="flex flex-wrap items-center gap-2">
-            <span>© 2026 Mahalaxmi Property. All Rights Reserved.</span>
+            <span>© 2026 Shree Mahalaxmi Properties and Construction (SMPC). All Rights Reserved.</span>
             <span className="text-slate-700">|</span>
             <span>
               Designed by{' '}

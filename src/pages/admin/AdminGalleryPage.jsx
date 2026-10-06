@@ -163,7 +163,7 @@ const AdminGalleryPage = () => {
 
   return (
     <>
-      <SEO title="Manage Gallery - Mahalaxmi Admin" />
+      <SEO title="Manage Gallery - Shree Mahalaxmi Properties & Construction (SMPC)" />
 
       {/* Lightbox Modal */}
       {lightboxImage && (
@@ -323,7 +323,7 @@ const AdminGalleryPage = () => {
           <div>
             <h1 className="text-2xl font-bold font-heading text-navy-dark">Property Gallery Management</h1>
             <p className="text-xs text-slate-500 mt-0.5">
-              Upload from device, view, edit, and organize showcase images for Mahalaxmi Property.
+              Upload from device, view, edit, and organize showcase images for Shree Mahalaxmi Properties and Construction (SMPC).
             </p>
           </div>
           <button
@@ -354,11 +354,10 @@ const AdminGalleryPage = () => {
               <button
                 key={cat}
                 onClick={() => setSelectedCategory(cat)}
-                className={`px-3 py-1.5 rounded-xl font-bold text-[11px] whitespace-nowrap transition-all ${
-                  selectedCategory === cat
+                className={`px-3 py-1.5 rounded-xl font-bold text-[11px] whitespace-nowrap transition-all ${selectedCategory === cat
                     ? 'bg-navy text-gold shadow-xs'
                     : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
-                }`}
+                  }`}
               >
                 {cat}
               </button>

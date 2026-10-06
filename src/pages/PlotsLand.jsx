@@ -30,9 +30,9 @@ const PlotsLand = () => {
   return (
     <>
       <SEO
-        title="Plots & Land in Biharigarh Saharanpur | Mahalaxmi"
-        description="Buy verified residential and agricultural land near Pencho Restaurant on Dehradun-Saharanpur Highway, Biharigarh, Saharanpur. Call +91 9917970750."
-        keywords="Plots in Biharigarh, Land for sale Saharanpur, Dehradun Highway plot deals, Agricultural land 247662, Gated plot Saharanpur"
+        title="Best Property in Biharigarh & Dehradun Plots | Delhi Dehradun Expressway Property"
+        description="Buy verified plots & land with Best Property Advisor in Biharigarh & Best property advisor in Dehradun. Explore Property In Dehradun Expressway Corridor."
+        keywords="Best property Dealer in Biharigarh, Best Property Advisor in Biharigarh, Best Property in Biharigarh, Best Property Dealer in Dehradun, Best Property in Dehradun, Best property advisor in Dehradun, Property In Dehradun Expressway Corridor, Delhi Dehradun Expressway Property, Properties Delhi Dehradun Expressway way"
       />
 
       {/* Hero / Header Banner */}
@@ -47,7 +47,7 @@ const PlotsLand = () => {
             Plots & Land Deals
           </h1>
           <p className="text-sm sm:text-base text-slate-300 max-w-2xl mx-auto leading-relaxed">
-            Secure prime residential plots, farm land, and strategic commercial holdings in Biharigarh, Saharanpur & along the Dehradun Highway corridor. Complete legal clearance, clear titles, and immediate registry guaranteed.
+            Secure <strong>Best Property in Biharigarh</strong> & <strong>Best Property in Dehradun</strong> plots along the <strong>Delhi Dehradun Expressway Property</strong> corridor. Trusted <strong>Property In Dehradun Expressway Corridor</strong> deals with guaranteed registry.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-3 pt-3 text-xs text-gold font-semibold">
@@ -133,7 +133,7 @@ const PlotsLand = () => {
               </div>
               <h3 className="text-base font-bold text-navy-dark">Verified Legal Clearances</h3>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Every land deal listed by Mahalaxmi Property undergoes complete revenue checks, mutation verification, and seamless registry assistance.
+                Every land deal listed by Shree Mahalaxmi Properties and Construction (SMPC) undergoes complete revenue checks, mutation verification, and seamless registry assistance.
               </p>
             </div>
 
@@ -161,7 +161,7 @@ const PlotsLand = () => {
             </p>
           </div>
           <a
-            href={getWhatsAppLink('Hello Mahalaxmi Property, I am looking for a specific plot/land deal in Biharigarh.')}
+            href={getWhatsAppLink('Hello Shree Mahalaxmi Properties and Construction (SMPC), I am looking for a specific plot/land deal in Biharigarh.')}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-3 md:px-6 py-3.5 rounded-xl bg-gradient-to-r from-gold via-gold-accent to-gold-dark text-navy-dark font-bold text-xs uppercase tracking-wider shadow-lg hover:scale-105 transition-all shrink-0 relative z-10"

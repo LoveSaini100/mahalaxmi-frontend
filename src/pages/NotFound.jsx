@@ -6,7 +6,7 @@ import { Home, ArrowLeft } from 'lucide-react';
 const NotFound = () => {
   return (
     <>
-      <SEO title="Page Not Found - Mahalaxmi Property" />
+      <SEO title="Page Not Found - Shree Mahalaxmi Properties & Construction (SMPC)" />
       <div className="min-h-[75vh] bg-brand-offwhite flex items-center justify-center pt-24 pb-16 px-4">
         <div className="text-center space-y-6 max-w-md">
           <div className="text-8xl font-bold font-heading text-gold">404</div>

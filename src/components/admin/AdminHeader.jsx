@@ -14,8 +14,8 @@ const AdminHeader = ({ setMobileOpen }) => {
           <Menu className="w-5 h-5" />
         </button>
         <h2 className="text-sm sm:text-lg font-bold font-heading text-navy-dark">
-          <span className="hidden sm:inline">Mahalaxmi Property Management Panel</span>
-          <span className="sm:hidden">Mahalaxmi Admin</span>
+          <span className="hidden sm:inline">Shree Mahalaxmi Properties &amp; Construction (SMPC) Panel</span>
+          <span className="sm:hidden">SMPC Admin</span>
         </h2>
       </div>
 

@@ -15,9 +15,9 @@ const TestimonialsPage = () => {
   return (
     <>
       <SEO
-        title="Client Reviews & Testimonials | Mahalaxmi Biharigarh"
-        description="Read client reviews for Mahalaxmi Property serving buyers near Pencho Restaurant on Dehradun-Saharanpur Highway, Biharigarh, Saharanpur 247662, UP."
-        keywords="Client reviews Biharigarh, Mahalaxmi Property ratings, Trusted real estate buyer feedback Saharanpur"
+        title="Client Reviews | Best Property Dealer in Biharigarh & Best Property Advisor in Dehradun"
+        description="Client reviews for Best property Dealer in Biharigarh & Best Property Advisor in Dehradun. Discover experiences for Property In Dehradun Expressway Corridor."
+        keywords="Best property Dealer in Biharigarh, Best Property Advisor in Biharigarh, Best Property in Biharigarh, Best Property Dealer in Dehradun, Best Property in Dehradun, Best property advisor in Dehradun, Property In Dehradun Expressway Corridor, Delhi Dehradun Expressway Property, Properties Delhi Dehradun Expressway way"
       />
 
       <div className="bg-navy-dark text-white pt-32 pb-14 border-b border-gold/30">
@@ -25,7 +25,7 @@ const TestimonialsPage = () => {
           <span className="text-xs font-bold text-gold uppercase tracking-widest block mb-2">REVIEWS</span>
           <h1 className="text-4xl font-bold font-heading">Client Testimonials</h1>
           <p className="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto mt-2">
-            Hear from property buyers and investors who trusted Mahalaxmi Property.
+            Hear from buyers who trusted the <strong>Best property Dealer in Biharigarh</strong> & <strong>Best Property Advisor in Dehradun</strong>.
           </p>
         </div>
       </div>

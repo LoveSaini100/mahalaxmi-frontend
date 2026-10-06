@@ -34,7 +34,7 @@ const AdminEnquiriesPage = () => {
 
   return (
     <>
-      <SEO title="Customer Enquiries - Mahalaxmi Admin" />
+      <SEO title="Customer Enquiries - Shree Mahalaxmi Properties & Construction (SMPC)" />
 
       {selectedEnquiry && (
         <EnquiryDetailModal

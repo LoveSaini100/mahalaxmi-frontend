@@ -15,14 +15,14 @@ export const formatPrice = (price) => {
 
 /**
  * Generate official WhatsApp pre-filled contact link
- * Official Number: +919917970750
+ * Official Number: +91 75000 87299
  */
 export const getWhatsAppLink = (propertyTitle = '', customMsg = '') => {
-  const phone = '919917970750';
-  let text = 'Hello Mahalaxmi Property, I would like to inquire about your real estate services.';
+  const phone = '917500087299';
+  let text = 'Hello Shree Mahalaxmi Properties and Construction (SMPC), I would like to inquire about your real estate services.';
   
   if (propertyTitle) {
-    text = `Hello Mahalaxmi Property, I am interested in "${propertyTitle}". Please share more details and arrange a call/visit.`;
+    text = `Hello Shree Mahalaxmi Properties and Construction (SMPC), I am interested in "${propertyTitle}". Please share more details and arrange a call/visit.`;
   } else if (customMsg) {
     text = customMsg;
   }

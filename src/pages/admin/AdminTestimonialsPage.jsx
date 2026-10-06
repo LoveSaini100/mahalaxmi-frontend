@@ -64,7 +64,7 @@ const AdminTestimonialsPage = () => {
 
   return (
     <>
-      <SEO title="Testimonials Admin - Mahalaxmi Property" />
+      <SEO title="Testimonials Admin - Shree Mahalaxmi Properties & Construction (SMPC)" />
 
       <div className="space-y-8">
         <div className="flex items-center justify-between">

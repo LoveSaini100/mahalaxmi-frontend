@@ -38,7 +38,7 @@ const AdminDashboard = () => {
 
   return (
     <>
-      <SEO title="Admin Dashboard - Mahalaxmi Property" />
+      <SEO title="Admin Dashboard - Shree Mahalaxmi Properties & Construction (SMPC)" />
 
       {selectedEnquiry && (
         <EnquiryDetailModal
@@ -51,7 +51,7 @@ const AdminDashboard = () => {
         <div className="flex flex-row sm:flex-row sm:items-center justify-between gap-4">
           <div>
             <h1 className="text-xl sm:text-2xl font-bold font-heading text-navy-dark">Dashboard Overview</h1>
-            <p className="text-xs text-slate-500 mt-1">Real-time stats and performance for Mahalaxmi Property.</p>
+            <p className="text-xs text-slate-500 mt-1">Real-time stats and performance for Shree Mahalaxmi Properties and Construction (SMPC).</p>
           </div>
           <Link
             to="/admin/properties/new"

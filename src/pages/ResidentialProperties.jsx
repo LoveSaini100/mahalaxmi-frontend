@@ -31,9 +31,9 @@ const ResidentialProperties = () => {
   return (
     <>
       <SEO
-        title="Residential Houses & Villas in Biharigarh | MP UP"
-        description="Explore luxury villas and independent houses near Pencho Restaurant on Dehradun-Saharanpur Highway, Biharigarh, Saharanpur. Contact us for site visits."
-        keywords="Residential house Biharigarh, Luxury villa Saharanpur, Independent house Dehradun Highway, 2 BHK house 247662, Gated villa Saharanpur"
+        title="Best Property in Biharigarh & Dehradun Homes | Delhi Dehradun Expressway Property"
+        description="Find Best Property in Biharigarh & Best Property in Dehradun residential homes with Best property Dealer in Biharigarh & Best Property Advisor in Dehradun."
+        keywords="Best property Dealer in Biharigarh, Best Property Advisor in Biharigarh, Best Property in Biharigarh, Best Property Dealer in Dehradun, Best Property in Dehradun, Best property advisor in Dehradun, Property In Dehradun Expressway Corridor, Delhi Dehradun Expressway Property, Properties Delhi Dehradun Expressway way"
       />
 
       {/* Hero / Header Banner */}
@@ -48,7 +48,7 @@ const ResidentialProperties = () => {
             Residential Properties
           </h1>
           <p className="text-sm sm:text-base text-slate-300 max-w-2xl mx-auto leading-relaxed">
-            Explore premium independent villas, family homes, duplexes, and residential gated properties crafted for comfortable, luxury living in Biharigarh, Saharanpur.
+            Explore <strong>Best Property in Biharigarh</strong> & <strong>Best Property in Dehradun</strong> residential homes, luxury villas, and independent houses along <strong>Properties Delhi Dehradun Expressway way</strong>.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-3 pt-3 text-xs text-gold font-semibold">
@@ -162,7 +162,7 @@ const ResidentialProperties = () => {
             </p>
           </div>
           <a
-            href={getWhatsAppLink('Hello Mahalaxmi Property, I am looking for a residential house / villa in Biharigarh.')}
+            href={getWhatsAppLink('Hello Shree Mahalaxmi Properties and Construction (SMPC), I am looking for a residential house / villa in Biharigarh.')}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-gradient-to-r from-gold via-gold-accent to-gold-dark text-navy-dark font-bold text-xs uppercase tracking-wider shadow-lg hover:scale-105 transition-all shrink-0 relative z-10"

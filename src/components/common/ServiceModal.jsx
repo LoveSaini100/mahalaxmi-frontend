@@ -52,9 +52,21 @@ const ServiceModal = ({ service, onClose }) => {
       dispatch(
         showToast({
           type: 'success',
-          message: 'Enquiry submitted successfully! Our team will contact you shortly.',
+          message: 'Enquiry submitted successfully! Connecting to WhatsApp...',
         })
       );
+
+      // Send form data directly to main WhatsApp number 7500087299
+      const waMessage = `*New Service Request - Shree Mahalaxmi Properties & Construction (SMPC)*\n\n` +
+        `🛠️ *Service:* ${service.title}\n` +
+        `👤 *Name:* ${formData.name}\n` +
+        `📞 *Phone:* ${formData.phone}\n` +
+        `✉️ *Email:* ${formData.email || 'Not Provided'}\n` +
+        `💬 *Requirements:* ${formData.message || `Interested in ${service.title}`}`;
+
+      const waUrl = `https://wa.me/917500087299?text=${encodeURIComponent(waMessage)}`;
+      window.open(waUrl, '_blank', 'noopener,noreferrer');
+
       setFormData({ name: '', phone: '', email: '', message: '' });
       setShowEnquiryForm(false);
       onClose();
@@ -69,7 +81,7 @@ const ServiceModal = ({ service, onClose }) => {
   };
 
   const whatsappMessage = encodeURIComponent(
-    `Hello Mahalaxmi Property, I would like to get more information regarding your "${service.title}" service.`
+    `Hello Shree Mahalaxmi Properties and Construction (SMPC), I would like to get more information regarding your "${service.title}" service.`
   );
 
   return (
@@ -167,7 +179,7 @@ const ServiceModal = ({ service, onClose }) => {
                       required
                       value={formData.phone}
                       onChange={handleInputChange}
-                      placeholder="e.g. 9917970750"
+                      placeholder="e.g. 7500087299"
                       className="w-full px-3.5 py-2 rounded-xl border border-slate-200 focus:outline-none focus:border-gold bg-white"
                     />
                   </div>
@@ -229,15 +241,15 @@ const ServiceModal = ({ service, onClose }) => {
         <div className="px-6 sm:px-8 py-4 bg-slate-50 border-t border-slate-200 flex flex-wrap items-center justify-between gap-3">
           <div className="flex items-center gap-2">
             <a
-              href="tel:+919917970750"
+              href="tel:+917500087299"
               className="px-4 py-2.5 rounded-xl bg-navy text-white text-xs font-bold hover:bg-navy-dark transition-all flex items-center gap-2"
             >
               <Phone className="w-3.5 h-3.5 text-gold" />
-              <span>Call Us: +91 9917970750</span>
+              <span>Call Us: +91 75000 87299</span>
             </a>
 
             <a
-              href={`https://wa.me/919917970750?text=${whatsappMessage}`}
+              href={`https://wa.me/917500087299?text=${whatsappMessage}`}
               target="_blank"
               rel="noreferrer"
               className="px-4 py-2.5 rounded-xl bg-emerald-600 text-white text-xs font-bold hover:bg-emerald-700 transition-all flex items-center gap-2"

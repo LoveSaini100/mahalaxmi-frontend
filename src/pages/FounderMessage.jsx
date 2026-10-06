@@ -9,9 +9,9 @@ const FounderMessage = () => {
   return (
     <>
       <SEO
-        title="Founder's Message | Mr. Ishwar Singh Rathour - Best Property Dealer in Biharigarh"
-        description="Read the leadership message from Mr. Ishwar Singh Rathour, Director & Founder of Mahalaxmi Property - the premier property advisor in Biharigarh & Saharanpur."
-        keywords="Mr Ishwar Singh Rathour, Best property dealer in Biharigarh, property advisor in biharigarh, property advisor Saharanpur, Chutmalpur property dealer, Gagalheri property advisor, Mahalaxmi Property founder"
+        title="Founder Message | Best Property Dealer in Biharigarh & Best Property Advisor in Dehradun - Shree Mahalaxmi Properties and Construction (SMPC)"
+        description="Message from Founder Mr. Ishwar Singh Rathour - Best property Dealer in Biharigarh & Best Property Advisor in Dehradun for Property In Dehradun Expressway Corridor."
+        keywords="Best property Dealer in Biharigarh, Best Property Advisor in Biharigarh, Best Property in Biharigarh, Best Property Dealer in Dehradun, Best Property in Dehradun, Best property advisor in Dehradun, Property In Dehradun Expressway Corridor, Delhi Dehradun Expressway Property, Properties Delhi Dehradun Expressway way"
       />
 
       {/* Header Banner */}
@@ -20,7 +20,7 @@ const FounderMessage = () => {
           <span className="text-xs font-bold text-gold uppercase tracking-widest block mb-2">LEADERSHIP VISION & TRUST</span>
           <h1 className="text-4xl font-bold font-heading">Founder's Message</h1>
           <p className="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto mt-2">
-            Guiding property buyers as the <strong>best property dealer in Biharigarh</strong> and premier <strong>property advisor in Saharanpur</strong>.
+            Guiding property buyers as the <strong>Best property Dealer in Biharigarh</strong> and <strong>Best Property Advisor in Dehradun</strong> for <strong>Delhi Dehradun Expressway Property</strong>.
           </p>
         </div>
       </div>
@@ -32,9 +32,10 @@ const FounderMessage = () => {
             <div className="lg:col-span-5">
               <div className="relative aspect-[3/4] rounded-2xl overflow-hidden border-2 border-gold/40 shadow-xl">
                 <img
-                  src="/founder.png"
+                  src="/founder.webp"
                   onError={(e) => {
-                    e.target.src = '/director.png';
+                    e.currentTarget.onerror = null;
+                    e.currentTarget.src = '/founder.webp';
                   }}
                   alt="Mr. Ishwar Singh Rathour - Director and Founder"
                   className="w-full h-full object-cover"
@@ -64,7 +65,7 @@ const FounderMessage = () => {
 
               <div className="space-y-4 text-xs sm:text-sm text-slate-600 leading-relaxed font-body text-justify">
                 <p>
-                  Welcome to Mahalaxmi Property. When we established this firm near Pencho Restaurant in Biharigarh, our goal was simple yet profound: to create a real-estate agency where clients feel completely secure, valued, and well-informed at every stage of their transaction.
+                  Welcome to Shree Mahalaxmi Properties and Construction (SMPC). When we established this firm near Pencho Restaurant in Biharigarh, our goal was simple yet profound: to create a real-estate agency where clients feel completely secure, valued, and well-informed at every stage of their transaction.
                 </p>
                 <p>
                   Real estate along the Dehradun–Saharanpur corridor is growing at an incredible pace. Whether you are acquiring your family's first residence, securing commercial space on the highway, or making a strategic land investment, we treat your capital with the highest respect.
@@ -84,8 +85,8 @@ const FounderMessage = () => {
                     </div>
                     <div className="text-xs text-slate-500">Director and Founder</div>
                   </div>
-                  <div className="font-heading italic text-xl text-gold font-bold">
-                    ~ Mahalaxmi Property ~
+                  <div className="font-heading italic text-lg sm:text-xl text-gold font-bold">
+                    ~ Shree Mahalaxmi Properties &amp; Construction (SMPC) ~
                   </div>
                 </div>
               </div>
@@ -99,7 +100,7 @@ const FounderMessage = () => {
             <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm space-y-2">
               <h3 className="text-xl font-bold font-heading text-navy-dark">Our Commitment to Verified Clear Titles</h3>
               <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                Every property listed with Mahalaxmi Property undergoes thorough legal scrutiny to safeguard buyer investment.
+                Every property listed with Shree Mahalaxmi Properties and Construction (SMPC) undergoes thorough legal scrutiny to safeguard buyer investment.
               </p>
             </div>
             <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm space-y-2">

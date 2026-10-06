@@ -9,10 +9,11 @@ const getApiBaseUrl = () => {
     }
     return envUrl;
   }
-  return 'https://mahalaxmi-backend.vercel.app/api';
+  return '/api';
 };
 
 const API = axios.create({
+  timeout: 3500,
   headers: {
     'Content-Type': 'application/json',
   },
@@ -39,17 +40,32 @@ API.interceptors.request.use(
   (error) => Promise.reject(error)
 );
 
-// Response Interceptor: Format errors gracefully
+// Response Interceptor: Format errors gracefully & detect invalid HTML responses
 API.interceptors.response.use(
-  (response) => response,
+  (response) => {
+    // Detect if static server returned HTML (index.html fallback) instead of JSON from API
+    if (
+      typeof response.data === 'string' &&
+      (response.data.trim().startsWith('<!DOCTYPE') ||
+        response.data.trim().startsWith('<!doctype') ||
+        response.data.trim().startsWith('<html'))
+    ) {
+      return Promise.reject(
+        new Error(
+          'API server returned an HTML webpage instead of JSON. Ensure your live backend is running and VITE_API_URL is configured to your backend URL.'
+        )
+      );
+    }
+    return response;
+  },
   (error) => {
     if (error.response && error.response.status === 401) {
       localStorage.removeItem('mahalaxmi_admin_token');
     }
     const message =
-      error.response && error.response.data && error.response.data.message
-        ? error.response.data.message
-        : error.message || 'Something went wrong';
+      error.response?.data?.message ||
+      error.message ||
+      'Something went wrong. Please check your connection.';
     return Promise.reject(new Error(message));
   }
 );

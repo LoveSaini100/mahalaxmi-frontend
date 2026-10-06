@@ -136,7 +136,7 @@ const EnquiryDetailModal = ({ enquiry, onClose }) => {
 
             {cleanPhone && (
               <a
-                href={`https://wa.me/${whatsappNumber}?text=Hello%20${encodeURIComponent(enquiry.name)},%20thank%20you%20for%20contacting%20Mahalaxmi%20Property.`}
+                href={`https://wa.me/${whatsappNumber}?text=Hello%20${encodeURIComponent(enquiry.name)},%20thank%20you%20for%20contacting%20Shree%20Mahalaxmi%20Properties%20and%20Construction%20(SMPC).`}
                 target="_blank"
                 rel="noreferrer"
                 className="px-3.5 py-2 rounded-xl bg-emerald-600 text-white text-xs font-bold hover:bg-emerald-700 transition-all flex items-center gap-1.5"

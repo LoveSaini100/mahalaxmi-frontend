@@ -44,10 +44,18 @@ import StickyWhatsApp from '../components/layout/StickyWhatsApp';
 import ToastContainer from '../components/common/ToastContainer';
 import ScrollToTop from '../components/common/ScrollToTop';
 
-// Fallback Spinner for Suspense
+// Refined Brand Loader for Suspense Route Transitions
 const PageLoader = () => (
-  <div className="min-h-[60vh] flex items-center justify-center bg-brand-offwhite">
-    <div className="w-10 h-10 border-3 border-navy border-t-gold rounded-full animate-spin" />
+  <div className="min-h-[70vh] flex flex-col items-center justify-center bg-brand-offwhite py-16">
+    <div className="relative flex items-center justify-center">
+      <div className="w-14 h-14 rounded-full border-2 border-gold/20 border-t-gold animate-spin" />
+      <div className="absolute inset-0 flex items-center justify-center">
+        <div className="w-2.5 h-2.5 rounded-full bg-gold animate-ping" />
+      </div>
+    </div>
+    <span className="mt-4 text-xs font-medium tracking-widest text-navy/70 uppercase">
+      Loading...
+    </span>
   </div>
 );
 

@@ -30,9 +30,9 @@ const CommercialProperties = () => {
   return (
     <>
       <SEO
-        title="Commercial Land & Shops in Biharigarh | Mahalaxmi"
-        description="Find high ROI commercial plots and shops near Pencho Restaurant on Dehradun-Saharanpur Highway corridor, Biharigarh, Saharanpur. Call +91 9917970750."
-        keywords="Commercial land Biharigarh, Highway shops Saharanpur, Showroom plots Dehradun Highway, Commercial property 247662, Retail space Saharanpur"
+        title="Best Property Dealer in Dehradun & Biharigarh Commercial | Delhi Dehradun Expressway"
+        description="High ROI commercial land with Best Property Dealer in Dehradun & Best property Dealer in Biharigarh. Discover Delhi Dehradun Expressway Property."
+        keywords="Best property Dealer in Biharigarh, Best Property Advisor in Biharigarh, Best Property in Biharigarh, Best Property Dealer in Dehradun, Best Property in Dehradun, Best property advisor in Dehradun, Property In Dehradun Expressway Corridor, Delhi Dehradun Expressway Property, Properties Delhi Dehradun Expressway way"
       />
 
       {/* Hero / Header Banner */}
@@ -47,7 +47,7 @@ const CommercialProperties = () => {
             Commercial Properties
           </h1>
           <p className="text-sm sm:text-base text-slate-300 max-w-2xl mx-auto leading-relaxed">
-            Discover prime retail shops, highway frontage plots, showroom spaces, and high-yielding commercial assets along the Dehradun-Saharanpur Highway corridor in Biharigarh.
+            Discover <strong>Delhi Dehradun Expressway Property</strong> & commercial spaces with the <strong>Best Property Dealer in Dehradun</strong> & <strong>Best Property Advisor in Biharigarh</strong>. High footfall <strong>Property In Dehradun Expressway Corridor</strong> options.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-3 pt-3 text-xs text-gold font-semibold">
@@ -161,7 +161,7 @@ const CommercialProperties = () => {
             </p>
           </div>
           <a
-            href={getWhatsAppLink('Hello Mahalaxmi Property, I am interested in commercial properties / land in Biharigarh.')}
+            href={getWhatsAppLink('Hello Shree Mahalaxmi Properties and Construction (SMPC), I am interested in commercial properties / land in Biharigarh.')}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-gradient-to-r from-gold via-gold-accent to-gold-dark text-navy-dark font-bold text-xs uppercase tracking-wider shadow-lg hover:scale-105 transition-all shrink-0 relative z-10"

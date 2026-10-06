@@ -13,17 +13,17 @@ const ContactUs = () => {
   return (
     <>
       <SEO
-        title="Contact Best Property Dealer & Advisor in Biharigarh | Mahalaxmi Property"
-        description="Contact Mahalaxmi Property - the best property dealer and property advisor in Biharigarh, Chutmalpur, Gagalheri & Saharanpur. Office near Pencho Restaurant, Dehradun Highway."
-        keywords="Contact best property dealer, property dealer in biharigarh contact, property advisor in biharigarh, Saharanpur real estate advisor, Chutmalpur property dealer office, Pencho Restaurant Biharigarh office"
+        title="Contact Best Property Dealer in Biharigarh & Best Property Advisor in Dehradun | Shree Mahalaxmi Properties and Construction (SMPC)"
+        description="Contact Shree Mahalaxmi Properties and Construction (SMPC) - Best property Dealer in Biharigarh & Best Property Advisor in Dehradun. Inquire about Best Property in Biharigarh & Property In Dehradun Expressway Corridor."
+        keywords="Shree Mahalaxmi Properties and Construction, SMPC, Best property Dealer in Biharigarh, Best Property Advisor in Biharigarh, Best Property in Biharigarh, Best Property Dealer in Dehradun, Best Property in Dehradun, Best property advisor in Dehradun, Property In Dehradun Expressway Corridor, Delhi Dehradun Expressway Property, Properties Delhi Dehradun Expressway way, Shree Mahalaxmi Property contact"
       />
 
       <div className="bg-navy-dark text-white pt-32 pb-14 border-b border-gold/30">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <span className="text-xs font-bold text-gold uppercase tracking-widest block mb-2">GET IN TOUCH WITH THE BEST PROPERTY DEALER</span>
-          <h1 className="text-4xl font-bold font-heading">Contact Mahalaxmi Property</h1>
+          <span className="text-xs font-bold text-gold uppercase tracking-widest block mb-2">GET IN TOUCH WITH THE BEST PROPERTY DEALER IN BIHARIGARH & DEHRADUN</span>
+          <h1 className="text-4xl font-bold font-heading">Contact Shree Mahalaxmi Properties &amp; Construction (SMPC)</h1>
           <p className="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto mt-2">
-            Visit our office near Pencho Restaurant in Biharigarh or call/WhatsApp our expert <strong>property advisors</strong> for immediate real estate assistance across Biharigarh, Chutmalpur, Gagalheri & Saharanpur.
+            Visit our office near Pencho Restaurant in Biharigarh or connect with the <strong>Best Property Advisor in Biharigarh</strong> & <strong>Best property advisor in Dehradun</strong> for <strong>Delhi Dehradun Expressway Property</strong> investments.
           </p>
         </div>
       </div>
@@ -51,10 +51,15 @@ const ContactUs = () => {
                     <Phone className="w-5 h-5" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-navy-dark">Phone Number</h4>
-                    <a href={`tel:${settings.phone.replace(/\s+/g, '')}`} className="text-gold font-semibold hover:underline">
-                      {settings.phone}
-                    </a>
+                    <h4 className="font-bold text-navy-dark">Phone Numbers</h4>
+                    <div className="flex flex-col gap-1 mt-0.5">
+                      <a href="tel:+917500087299" className="text-gold font-semibold hover:underline">
+                        +91 75000 87299
+                      </a>
+                      <a href="tel:+918923470090" className="text-gold font-semibold hover:underline">
+                        +91 89234 70090
+                      </a>
+                    </div>
                   </div>
                 </div>
 
@@ -65,7 +70,7 @@ const ContactUs = () => {
                   <div>
                     <h4 className="font-bold text-navy-dark">WhatsApp Chat</h4>
                     <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-semibold hover:underline">
-                      +91 9917970750
+                      +91 75000 87299
                     </a>
                   </div>
                 </div>
@@ -78,15 +83,9 @@ const ContactUs = () => {
                     <h4 className="font-bold text-navy-dark mb-1">Official Emails</h4>
                     <div className="space-y-1 text-xs sm:text-sm">
                       <div>
-                        <span className="text-slate-500 font-medium">Director: </span>
-                        <a href="mailto:Direct@mahalaxmipropertiesindia.com" className="text-gold font-semibold hover:underline">
-                          Direct@mahalaxmipropertiesindia.com
-                        </a>
-                      </div>
-                      <div>
-                        <span className="text-slate-500 font-medium">Manager: </span>
-                        <a href="mailto:Manager@mahalaxmipropertiesindia.com" className="text-gold font-semibold hover:underline">
-                          Manager@mahalaxmipropertiesindia.com
+                        <span className="text-slate-500 font-medium">Info: </span>
+                        <a href="mailto:info@mahalaxmipropertiesindia.com" className="text-gold font-semibold hover:underline">
+                          info@mahalaxmipropertiesindia.com
                         </a>
                       </div>
                       <div>
@@ -123,7 +122,7 @@ const ContactUs = () => {
           <h3 className="text-2xl font-bold font-heading text-navy-dark">Office Location & Google Maps</h3>
           <div className="rounded-3xl overflow-hidden border border-slate-200 shadow-lg h-[400px] w-full">
             <iframe
-              title="Mahalaxmi Property Biharigarh Map"
+              title="Shree Mahalaxmi Properties and Construction Biharigarh Map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3451.433568095104!2d77.838782!3d30.110404700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ecd66a9f19359%3A0x596b0106193d6368!2sMahalaxmi%20Properties!5e0!3m2!1sen!2sin!4v1787290610345!5m2!1sen!2sin"
               className="w-full h-full border-0"
               allowFullScreen=""

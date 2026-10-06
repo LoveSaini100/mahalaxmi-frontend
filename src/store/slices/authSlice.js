@@ -8,10 +8,21 @@ export const loginAdminThunk = createAsyncThunk(
   async (credentials, { rejectWithValue }) => {
     try {
       const response = await API.post('/auth/login', credentials);
-      localStorage.setItem('mahalaxmi_admin_token', response.data.data.token);
-      return response.data.data;
+      const payload = response.data?.data || response.data;
+      const token = payload?.token || response.data?.token;
+
+      if (!token) {
+        const errorMsg =
+          typeof response.data === 'object' && response.data?.message
+            ? response.data.message
+            : 'Invalid login response. Please verify backend connectivity.';
+        return rejectWithValue(errorMsg);
+      }
+
+      localStorage.setItem('mahalaxmi_admin_token', token);
+      return { ...(typeof payload === 'object' ? payload : {}), token };
     } catch (error) {
-      return rejectWithValue(error.message);
+      return rejectWithValue(error.message || 'Login failed. Please try again.');
     }
   }
 );
@@ -21,10 +32,10 @@ export const getMeThunk = createAsyncThunk(
   async (_, { rejectWithValue }) => {
     try {
       const response = await API.get('/auth/me');
-      return response.data.data;
+      return response.data?.data || response.data;
     } catch (error) {
       localStorage.removeItem('mahalaxmi_admin_token');
-      return rejectWithValue(error.message);
+      return rejectWithValue(error.message || 'Session expired.');
     }
   }
 );

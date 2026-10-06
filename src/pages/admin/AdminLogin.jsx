@@ -11,8 +11,8 @@ const AdminLogin = () => {
   const dispatch = useDispatch();
   const { isAuthenticated, loading, error } = useSelector((state) => state.auth);
 
-  const [email, setEmail] = useState('admin@mahalaxmipropertiesindia.com');
-  const [password, setPassword] = useState('mahalaxmi@123456');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
 
   if (isAuthenticated) {
@@ -29,7 +29,7 @@ const AdminLogin = () => {
 
   return (
     <>
-      <SEO title="Admin Login - Mahalaxmi Property" />
+      <SEO title="Admin Login - Shree Mahalaxmi Properties & Construction (SMPC)" />
       <div className="min-h-screen bg-navy-dark flex items-center justify-center p-4 relative overflow-hidden">
         {/* Background Lights */}
         <div className="absolute top-10 left-10 w-80 h-80 bg-gold/10 rounded-full filter blur-3xl pointer-events-none" />
@@ -61,6 +61,7 @@ const AdminLogin = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
+                placeholder='enter email address'
                 className="w-full px-4 py-3 rounded-xl bg-navy-dark border border-slate-700 text-white text-xs font-medium focus:border-gold focus:outline-none"
               />
             </div>
@@ -76,6 +77,7 @@ const AdminLogin = () => {
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   required
+                  placeholder='enter password'
                   className="w-full px-4 py-3 pr-10 rounded-xl bg-navy-dark border border-slate-700 text-white text-xs font-medium focus:border-gold focus:outline-none"
                 />
                 <button

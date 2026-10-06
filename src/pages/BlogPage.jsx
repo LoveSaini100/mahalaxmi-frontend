@@ -24,9 +24,9 @@ const BlogPage = () => {
   return (
     <>
       <SEO
-        title="Real Estate Blogs & Market Insights | Mahalaxmi Property Biharigarh"
-        description="Read expert real estate blogs, land investment guides, legal documentation tips, and highway property appreciation insights for Biharigarh and Saharanpur."
-        keywords="Biharigarh real estate blogs, Saharanpur land guides, Dehradun Highway property news, UP land registry verification"
+        title="Real Estate Blog | Best Property Advisor in Biharigarh & Dehradun"
+        description="Real estate investment articles by Best Property Advisor in Biharigarh & Best property advisor in Dehradun on Property In Dehradun Expressway Corridor."
+        keywords="Best property Dealer in Biharigarh, Best Property Advisor in Biharigarh, Best Property in Biharigarh, Best Property Dealer in Dehradun, Best Property in Dehradun, Best property advisor in Dehradun, Property In Dehradun Expressway Corridor, Delhi Dehradun Expressway Property, Properties Delhi Dehradun Expressway way"
       />
 
       {/* Header Banner */}
@@ -35,7 +35,7 @@ const BlogPage = () => {
           <span className="text-xs font-bold text-gold uppercase tracking-widest block mb-2">LOCAL KNOWLEDGE & ADVISORY</span>
           <h1 className="text-4xl font-bold font-heading">Real Estate Articles & Guides</h1>
           <p className="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto mt-2">
-            In-depth guides on land buying, highway property trends, legal documentation, and investment returns in Biharigarh & Saharanpur.
+            In-depth guides by the <strong>Best Property Advisor in Biharigarh</strong> on buying <strong>Delhi Dehradun Expressway Property</strong> & <strong>Property In Dehradun Expressway Corridor</strong> land.
           </p>
         </div>
       </div>

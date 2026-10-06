@@ -58,9 +58,9 @@ const Home = () => {
   return (
     <>
       <SEO
-        title="Best Property Dealer in Biharigarh | Top Property Advisor Saharanpur"
-        description="Mahalaxmi Property is the best property dealer and trusted property advisor in Biharigarh, Chutmalpur, Gagalheri, Behat & Saharanpur. Verified residential plots & highway land along NH-307."
-        keywords="Best property dealer, property dealer in biharigarh, property advisor, property advisor in biharigarh, real estate agent Saharanpur, plots in Biharigarh, Chutmalpur property dealer, Gagalheri property advisor, Behat land dealer, Dehradun Highway plots, Pencho Restaurant Biharigarh, Mahalaxmi Property"
+        title="Best Property Dealer in Biharigarh & Dehradun | Delhi Dehradun Expressway Property - Shree Mahalaxmi Properties and Construction (SMPC)"
+        description="Shree Mahalaxmi Properties and Construction (SMPC) is the Best property Dealer in Biharigarh & Best Property Advisor in Dehradun. Discover Best Property in Biharigarh, Best Property in Dehradun, Property In Dehradun Expressway Corridor & Properties Delhi Dehradun Expressway way."
+        keywords="Shree Mahalaxmi Properties and Construction, SMPC, Best property Dealer in Biharigarh, Best Property Advisor in Biharigarh, Best Property in Biharigarh, Best Property Dealer in Dehradun, Best Property in Dehradun, Best property advisor in Dehradun, Property In Dehradun Expressway Corridor, Delhi Dehradun Expressway Property, Properties Delhi Dehradun Expressway way, Shree Mahalaxmi Property"
       />
 
       <section className="relative min-h-[90vh] flex items-center pt-24 pb-28 bg-navy-dark text-white overflow-hidden">
@@ -69,7 +69,7 @@ const Home = () => {
             src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=75"
             srcSet="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=600&q=70 600w, https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=75 1200w"
             sizes="(max-width: 640px) 600px, 1200px"
-            alt="Mahalaxmi Property Modern Home"
+            alt="Shree Mahalaxmi Properties and Construction Modern Home"
             className="w-full h-full object-cover object-right"
             fetchpriority="high"
             loading="eager"
@@ -111,7 +111,7 @@ const Home = () => {
               transition={{ duration: 0.7, delay: 0.2 }}
               className="text-sm sm:text-base text-white leading-relaxed max-w-xl"
             >
-              Partner with the <strong>best property dealer in Biharigarh</strong> and premier <strong>property advisor in Saharanpur</strong>. Discover verified residential plots, commercial highway land, and farmhouses along the Dehradun–Saharanpur Highway (NH-307).
+              Partner with the <strong>best property dealer in Biharigarh</strong> and premier <strong>property advisor in Saharanpur</strong>. Discover verified residential plots, commercial highway land, and farmhouses along the <strong>Delhi–Dehradun Corridor Expressway</strong> and Dehradun–Saharanpur Highway (NH-307).
             </motion.p>
 
             {/* CTA Buttons */}
@@ -249,6 +249,10 @@ const Home = () => {
                   <img
                     src={cat.image}
                     alt={cat.title}
+                    width="283"
+                    height="299"
+                    loading="lazy"
+                    decoding="async"
                     className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-navy-dark via-navy-dark/85 to-navy-dark/30" />
@@ -272,7 +276,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* ================= ABOUT MAHALAXMI PROPERTY ================= */}
+      {/* ================= ABOUT SHREE MAHALAXMI PROPERTIES AND CONSTRUCTION ================= */}
       <section className="py-16 bg-brand-offwhite relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -280,7 +284,11 @@ const Home = () => {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border-2 border-gold/30">
               <img
                 src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
-                alt="About Mahalaxmi Property"
+                alt="About Shree Mahalaxmi Properties and Construction"
+                width="576"
+                height="384"
+                loading="lazy"
+                decoding="async"
                 className="w-full h-auto object-cover"
               />
               <div className="absolute hidden md:block bottom-1 left-6 right-6 p-4 rounded-2xl glass-dark text-white space-y-1">
@@ -292,13 +300,13 @@ const Home = () => {
             {/* Right Content */}
             <div className="space-y-1">
               <span className="text-xs font-bold text-gold uppercase tracking-widest block">
-                ABOUT MAHALAXMI PROPERTY
+                ABOUT SHREE MAHALAXMI PROPERTIES &amp; CONSTRUCTION (SMPC)
               </span>
               <h3 className="text-2xl sm:text-3xl font-bold font-heading text-navy-dark leading-tight">
                 Committed to Helping You Find the Right Property With Trust & Transparency.
               </h3>
               <p className="text-xs sm:text-sm text-slate-600 leading-relaxed text-justify">
-                Mahalaxmi Property is a premier real estate agency headquartered near Pencho Restaurant on the Dehradun–Saharanpur Highway in Biharigarh. With deep-rooted local market expertise and an unyielding commitment to transparency, we specialize in luxury residential homes, high-yield commercial hubs, and strategic land investments.
+                Shree Mahalaxmi Properties and Construction (SMPC) is a premier real estate and construction agency headquartered near Pencho Restaurant on the Dehradun–Saharanpur Highway in Biharigarh. Situated along the upcoming <strong>Delhi–Dehradun Corridor Expressway</strong>, we combine deep-rooted local market expertise with an unyielding commitment to transparency, specializing in luxury residential homes, high-yield commercial hubs, and strategic land investments.
               </p>
               <p className="text-xs sm:text-sm text-slate-600 leading-relaxed text-justify">
                 Whether you are looking to build your dream home, expand your commercial footprint, or secure high-appreciation plot investments along the rapidly developing Saharanpur-Dehradun economic corridor, our experienced team provides complete end-to-end guidance—from site visits and legal title verification to final registry assistance.
@@ -340,10 +348,10 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center max-w-2xl mx-auto mb-14">
             <span className="text-xs font-bold text-gold uppercase tracking-widest block mb-2">
-              THE MAHALAXMI ADVANTAGE
+              THE SMPC ADVANTAGE
             </span>
             <h3 className="text-3xl sm:text-4xl font-bold font-heading">
-              Why Choose Mahalaxmi Property
+              Why Choose Shree Mahalaxmi Properties &amp; Construction (SMPC)
             </h3>
             <p className="text-xs sm:text-sm text-slate-400 mt-2">
               We combine in-depth regional market knowledge with transparent processes to deliver seamless real estate solutions.
@@ -537,7 +545,7 @@ const Home = () => {
             </span>
             <h4 className="text-3xl font-bold font-heading text-navy-dark">What Our Clients Say</h4>
             <p className="text-xs sm:text-sm text-slate-500 mt-2">
-              Real feedback and experiences shared by buyers, home owners, and property investors who trusted Mahalaxmi Property for their real estate journey.
+              Real feedback and experiences shared by buyers, home owners, and property investors who trusted Shree Mahalaxmi Properties and Construction (SMPC) for their real estate journey.
             </p>
           </div>
 
@@ -607,10 +615,10 @@ const Home = () => {
               PREMIER LOCAL REAL ESTATE CONSULTANCY
             </span>
             <h3 className="text-2xl sm:text-3xl font-bold font-heading text-navy-dark">
-              Best Property Dealer & Property Advisor in Biharigarh & Nearby Regions
+              Best Property Dealer in Biharigarh & Best Property Advisor in Dehradun
             </h3>
             <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-              Mahalaxmi Property is widely recognized as the <strong>best property dealer in Biharigarh</strong> and premier <strong>property advisor in Saharanpur district</strong>. Under the leadership of Founder Mr. Ishwar Singh Rathour and General Manager Mr. Amrit Singh, we provide end-to-end legal title verification, land demarcation, and transparent buying/selling advice for residential plots, commercial spaces, dhabas, petrol pump land, and agricultural holdings across all key nearby areas.
+              Shree Mahalaxmi Properties and Construction (SMPC) is your trusted <strong>Best property Dealer in Biharigarh</strong> and premier <strong>Best property advisor in Dehradun</strong>. Whether you are looking for the <strong>Best Property in Biharigarh</strong> or premium <strong>Best Property in Dehradun</strong>, we offer prime options for <strong>Property In Dehradun Expressway Corridor</strong> and <strong>Delhi Dehradun Expressway Property</strong>. As top-rated <strong>Best Property Advisor in Biharigarh</strong> and <strong>Best Property Dealer in Dehradun</strong>, we guide you to buy, sell, or invest in verified <strong>Properties Delhi Dehradun Expressway way</strong>. Under the leadership of Founder Mr. Ishwar Singh Rathour and General Manager Mr. Amrit Singh, we provide complete legal title verification and transparent real estate solutions.
             </p>
           </div>
 
@@ -640,7 +648,7 @@ const Home = () => {
             Your Dream Property Is Closer Than You Think.
           </h4>
           <p className="text-xs sm:text-sm text-slate-900 max-w-2xl mx-auto">
-            Let Mahalaxmi Property help you find the right place for your next chapter along the Dehradun–Saharanpur corridor.
+            Let Shree Mahalaxmi Properties and Construction (SMPC) help you find the right place for your next chapter along the Dehradun–Saharanpur corridor.
           </p>
           <div className="flex flex-row items-center justify-center gap-2.5 sm:gap-4 pt-4">
             <Link
@@ -650,7 +658,7 @@ const Home = () => {
               Explore Properties
             </Link>
             <a
-              href={`tel:${settings?.phone ? settings.phone.replace(/\s+/g, '') : '+919917970750'}`}
+              href="tel:+917500087299"
               className="px-4 sm:px-8 py-3 sm:py-3.5 rounded-xl bg-navy text-gold font-bold text-xs sm:text-sm hover:bg-navy-dark transition-all flex items-center gap-1.5 sm:gap-2 whitespace-nowrap shadow-md"
             >
               <Phone className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-gold" />

@@ -27,7 +27,7 @@ const PropertyEnquiryModal = ({ propertyId = null, propertyTitle = 'General Enqu
   } = useForm({
     resolver: zodResolver(enquirySchema),
     defaultValues: {
-      message: propertyTitle !== 'General Enquiry' ? `Hello Mahalaxmi Property, I am interested in "${propertyTitle}". Please contact me with more information.` : '',
+      message: propertyTitle !== 'General Enquiry' ? `Hello Shree Mahalaxmi Properties and Construction (SMPC), I am interested in "${propertyTitle}". Please contact me with more information.` : '',
     },
   });
 
@@ -50,9 +50,21 @@ const PropertyEnquiryModal = ({ propertyId = null, propertyTitle = 'General Enqu
       dispatch(
         showToast({
           type: 'success',
-          message: 'Enquiry submitted successfully! Our team will contact you shortly.',
+          message: 'Enquiry submitted successfully! Connecting to WhatsApp...',
         })
       );
+
+      // Send form data directly to main WhatsApp number 7500087299
+      const waMessage = `*New Inquiry - Shree Mahalaxmi Properties & Construction (SMPC)*\n\n` +
+        `👤 *Name:* ${data.name}\n` +
+        `📞 *Phone:* ${data.phone}\n` +
+        `✉️ *Email:* ${data.email || 'Not Provided'}\n` +
+        `🏷️ *Subject/Property:* ${propertyTitle}\n` +
+        `💬 *Message:* ${data.message}`;
+
+      const waUrl = `https://wa.me/917500087299?text=${encodeURIComponent(waMessage)}`;
+      window.open(waUrl, '_blank', 'noopener,noreferrer');
+
       reset();
     } catch (err) {
       dispatch(
@@ -72,7 +84,7 @@ const PropertyEnquiryModal = ({ propertyId = null, propertyTitle = 'General Enqu
         </span>
         <h3 className="text-xl font-bold text-navy-dark">Enquire About Property</h3>
         <p className="text-sm text-slate-500 mt-1">
-          Fill out the form below to receive call back from Mahalaxmi Property.
+          Fill out the form below to receive call back from Shree Mahalaxmi Properties and Construction (SMPC).
         </p>
       </div>
 
@@ -101,7 +113,7 @@ const PropertyEnquiryModal = ({ propertyId = null, propertyTitle = 'General Enqu
           <input
             type="tel"
             {...register('phone')}
-            placeholder="e.g. 9917970750"
+            placeholder="e.g. 7500087299"
             className="w-full px-3.5 py-2.5 rounded-xl border border-slate-400 text-xs font-medium focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold bg-slate-50/50"
           />
           {errors.phone && <p className="text-[11px] text-red-500 mt-1">{errors.phone.message}</p>}

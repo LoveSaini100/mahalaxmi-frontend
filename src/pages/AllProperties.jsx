@@ -1,17 +1,17 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchPropertiesThunk } from '../store/slices/propertySlice';
-import { setFilter, setPage, resetFilters } from '../store/slices/filterSlice';
+import { setFilter, resetFilters } from '../store/slices/filterSlice';
 import { toggleFilterDrawer } from '../store/slices/uiSlice';
 import SEO from '../components/common/SEO';
 import PropertyCard from '../components/property/PropertyCard';
 import { PropertyCardSkeleton } from '../components/common/Skeleton';
 import PropertyFilterDrawer from '../components/property/PropertyFilterDrawer';
-import { Search, Filter, ChevronLeft, ChevronRight, Building } from 'lucide-react';
+import { Search, Filter, Building } from 'lucide-react';
 
 const AllProperties = () => {
   const dispatch = useDispatch();
-  const { list: properties, total, page, pages, loading } = useSelector((state) => state.properties);
+  const { list: properties, total, loading } = useSelector((state) => state.properties);
   const filters = useSelector((state) => state.filters);
 
   useEffect(() => {
@@ -26,8 +26,7 @@ const AllProperties = () => {
         bedrooms: filters.bedrooms,
         status: filters.status,
         sort: filters.sort,
-        page: filters.page,
-        limit: 9,
+        limit: 1000,
       })
     );
   }, [dispatch, filters]);
@@ -46,9 +45,9 @@ const AllProperties = () => {
   return (
     <>
       <SEO
-        title="Buy Plots & Houses in Biharigarh Saharanpur | MP UP"
-        description="Browse verified plots, houses, and land listings near Pencho Restaurant on Dehradun-Saharanpur Highway corridor, Biharigarh. Call +91 9917970750 today."
-        keywords="All Property listings Biharigarh, Buy plots Saharanpur, Dehradun Highway houses, Land for sale 247662, Commercial shop Biharigarh, Residential villas Saharanpur"
+        title="Best Property in Biharigarh & Dehradun | Delhi Dehradun Expressway Property"
+        description="Browse Best Property in Biharigarh & Best Property in Dehradun. Find Property In Dehradun Expressway Corridor & Properties Delhi Dehradun Expressway way."
+        keywords="Best property Dealer in Biharigarh, Best Property Advisor in Biharigarh, Best Property in Biharigarh, Best Property Dealer in Dehradun, Best Property in Dehradun, Best property advisor in Dehradun, Property In Dehradun Expressway Corridor, Delhi Dehradun Expressway Property, Properties Delhi Dehradun Expressway way"
       />
 
       {/* Page Banner */}
@@ -57,7 +56,7 @@ const AllProperties = () => {
           <span className="text-xs font-bold text-gold uppercase tracking-widest block mb-2">MARKETPLACE</span>
           <h1 className="text-4xl font-bold font-heading">Explore All Properties</h1>
           <p className="text-xs sm:text-sm text-slate-300 max-w-2xl mx-auto mt-2 leading-relaxed">
-            Browse our complete collection of verified residential houses, commercial spaces, gated plots, and agricultural land along the Dehradun–Saharanpur Highway corridor in Biharigarh.
+            Browse verified listings for <strong>Best Property in Biharigarh</strong> & <strong>Best Property in Dehradun</strong> along the <strong>Delhi Dehradun Expressway Property</strong> corridor.
           </p>
         </div>
       </div>
@@ -110,7 +109,7 @@ const AllProperties = () => {
 
           <div className="flex items-center gap-3 w-full sm:w-auto justify-between sm:justify-end shrink-0">
             <span className="text-xs text-slate-500 font-medium">
-              Showing <strong>{properties.length}</strong> of <strong>{total}</strong> Properties
+              Showing <strong>{properties.length}</strong> {properties.length === 1 ? 'Property' : 'Properties'}
             </span>
             <select
               value={filters.sort}
@@ -127,7 +126,7 @@ const AllProperties = () => {
         {/* Listings Section */}
         <div className="space-y-4">
           <h3 className="text-lg font-bold font-heading text-navy-dark">Filtered Property Search Results</h3>
-          
+
           {loading ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {[1, 2, 3, 4, 5, 6].map((i) => (
@@ -155,39 +154,6 @@ const AllProperties = () => {
                 className="px-6 py-2.5 rounded-xl bg-navy text-gold text-xs font-bold shadow-md hover:bg-navy-dark transition-colors cursor-pointer"
               >
                 Reset Search Filters
-              </button>
-            </div>
-          )}
-
-          {/* Pagination Controls */}
-          {pages > 1 && (
-            <div className="flex items-center justify-center gap-2 pt-6">
-              <button
-                onClick={() => dispatch(setPage(Math.max(1, page - 1)))}
-                disabled={page === 1}
-                className="p-2.5 rounded-xl border border-slate-200 bg-white text-navy disabled:opacity-40 cursor-pointer"
-              >
-                <ChevronLeft className="w-4 h-4" />
-              </button>
-              {Array.from({ length: pages }).map((_, idx) => (
-                <button
-                  key={idx}
-                  onClick={() => dispatch(setPage(idx + 1))}
-                  className={`w-9 h-9 rounded-xl text-xs font-bold transition-colors cursor-pointer ${
-                    page === idx + 1
-                      ? 'bg-navy text-gold shadow-md'
-                      : 'bg-white text-slate-700 border border-slate-200 hover:bg-slate-50'
-                  }`}
-                >
-                  {idx + 1}
-                </button>
-              ))}
-              <button
-                onClick={() => dispatch(setPage(Math.min(pages, page + 1)))}
-                disabled={page === pages}
-                className="p-2.5 rounded-xl border border-slate-200 bg-white text-navy disabled:opacity-40 cursor-pointer"
-              >
-                <ChevronRight className="w-4 h-4" />
               </button>
             </div>
           )}

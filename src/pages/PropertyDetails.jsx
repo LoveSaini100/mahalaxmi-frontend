@@ -48,10 +48,10 @@ const PropertyDetails = () => {
   const whatsappUrl = getWhatsAppLink(property.title);
 
   // Exact 50-55 char title and 150-155 char meta description
-  const pageTitle = (property.title + ' | Mahalaxmi Biharigarh UP').slice(0, 52);
-  const pageDesc = (`Explore ${property.title} located near Pencho Restaurant on Dehradun-Saharanpur Highway, Biharigarh, Saharanpur 247662. Contact Mahalaxmi Property.`).slice(0, 153);
+  const pageTitle = (property.title + ' | SMPC Biharigarh UP').slice(0, 52);
+  const pageDesc = (`Explore ${property.title} located near Pencho Restaurant on Dehradun-Saharanpur Highway, Biharigarh, Saharanpur 247662. Contact Shree Mahalaxmi Properties & Construction (SMPC).`).slice(0, 153);
 
-  const pageKeywords = `${property.title}, ${property.propertyType} Biharigarh, ${property.location} real estate, Dehradun Saharanpur Highway property, Mahalaxmi Property`;
+  const pageKeywords = `${property.title}, ${property.propertyType} Biharigarh, ${property.location} real estate, Dehradun Saharanpur Highway property, Shree Mahalaxmi Properties and Construction, SMPC`;
 
   return (
     <>
@@ -183,7 +183,7 @@ const PropertyDetails = () => {
               <p className="text-xs text-slate-500">
                 {property.address}, {property.city}, {property.state} - {property.pincode}
               </p>
-              
+
               <div className="aspect-[16/5] rounded-xl overflow-hidden border border-slate-200 bg-slate-100 relative">
                 <iframe
                   title="Property Location Map"
@@ -201,15 +201,15 @@ const PropertyDetails = () => {
             {/* Quick Action Contact Agent Box */}
             <div className="bg-navy-dark text-white rounded-2xl p-6 border border-gold/40 shadow-xl space-y-4">
               <div className="text-xs font-bold text-gold uppercase tracking-widest">DIRECT CONTACT</div>
-              <h4 className="text-lg font-bold font-heading">Mahalaxmi Property Agent</h4>
+              <h4 className="text-lg font-bold font-heading">SMPC Property Advisor</h4>
 
               <div className="space-y-3 pt-2">
                 <a
-                  href={`tel:${settings.phone.replace(/\s+/g, '')}`}
+                  href="tel:+917500087299"
                   className="flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-navy hover:bg-navy-light border border-gold/40 text-gold font-bold text-xs transition-colors shadow-sm"
                 >
                   <Phone className="w-4 h-4" />
-                  <span>Call {settings.phone}</span>
+                  <span>Call +91 75000 87299</span>
                 </a>
 
                 <a

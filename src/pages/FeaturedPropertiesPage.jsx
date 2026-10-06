@@ -18,9 +18,9 @@ const FeaturedPropertiesPage = () => {
   return (
     <>
       <SEO
-        title="Featured Real Estate Listings in Biharigarh | MP UP"
-        description="Discover top featured plots and villas near Pencho Restaurant on Dehradun-Saharanpur Highway, Biharigarh, Saharanpur 247662. Schedule site visit today."
-        keywords="Featured properties Biharigarh, Top luxury villas Saharanpur, High ROI land Dehradun Highway, Premium real estate 247662"
+        title="Featured Best Property in Biharigarh & Best Property in Dehradun"
+        description="Featured listings for Best Property in Biharigarh & Best Property in Dehradun by Best Property Dealer in Dehradun & Best property Dealer in Biharigarh."
+        keywords="Best property Dealer in Biharigarh, Best Property Advisor in Biharigarh, Best Property in Biharigarh, Best Property Dealer in Dehradun, Best Property in Dehradun, Best property advisor in Dehradun, Property In Dehradun Expressway Corridor, Delhi Dehradun Expressway Property, Properties Delhi Dehradun Expressway way"
       />
 
       <div className="bg-navy-dark text-white pt-32 pb-14 border-b border-gold/30">
@@ -28,7 +28,7 @@ const FeaturedPropertiesPage = () => {
           <span className="text-xs font-bold text-gold uppercase tracking-widest block mb-2">HANDPICKED</span>
           <h1 className="text-4xl font-bold font-heading">Featured Real Estate Properties</h1>
           <p className="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto mt-2">
-            Explore our premier luxury real estate selections with high appreciation potential.
+            Explore <strong>Best Property in Biharigarh</strong> & <strong>Best Property in Dehradun</strong> along the <strong>Properties Delhi Dehradun Expressway way</strong>.
           </p>
         </div>
       </div>
@@ -36,7 +36,7 @@ const FeaturedPropertiesPage = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-6">
         <div className="space-y-4">
           <h3 className="text-lg font-bold font-heading text-navy-dark">Top Premium Property Listings</h3>
-          
+
           {loading ? (
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[1, 2, 3].map((i) => (

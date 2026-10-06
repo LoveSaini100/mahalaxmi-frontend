@@ -167,7 +167,7 @@ const BlogDetails = () => {
           <div className="space-y-1">
             <div className="text-xs font-bold text-gold uppercase tracking-wider">Written By</div>
             <h4 className="text-base font-bold font-heading text-navy-dark">{post.author}</h4>
-            <p className="text-xs text-slate-500">{post.authorRole} at Mahalaxmi Property, Biharigarh.</p>
+            <p className="text-xs text-slate-500">{post.authorRole} at Shree Mahalaxmi Properties and Construction, Biharigarh.</p>
             <p className="text-xs text-slate-600 pt-2">
               Specializing in clear-title property advisory, land valuation, and commercial development along the Dehradun-Saharanpur Highway corridor.
             </p>
@@ -188,15 +188,15 @@ const BlogDetails = () => {
 
           <div className="flex flex-wrap items-center gap-4 pt-2">
             <a
-              href="tel:+919917970750"
+              href="tel:+917500087299"
               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-gold via-gold-accent to-gold-dark text-navy-dark font-bold text-xs sm:text-sm shadow-gold hover:shadow-glow transition-all"
             >
               <PhoneCall className="w-4 h-4" />
-              <span>Call +91 9917970750</span>
+              <span>Call +91 75000 87299</span>
             </a>
 
             <a
-              href="https://wa.me/919917970750?text=Hello%20Mahalaxmi%20Property,%20I%20read%20your%20blog%20article%20and%20want%20to%20inquire%20about%20land%20in%20Biharigarh."
+              href="https://wa.me/917500087299?text=Hello%20Shree%20Mahalaxmi%20Properties%20and%20Construction%20(SMPC),%20I%20read%20your%20blog%20article%20and%20want%20to%20inquire%20about%20land%20in%20Biharigarh."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs sm:text-sm shadow-md transition-all"

@@ -39,7 +39,7 @@ const AdminSettingsPage = () => {
 
   return (
     <>
-      <SEO title="Site Settings - Mahalaxmi Admin" />
+      <SEO title="Site Settings - Shree Mahalaxmi Properties & Construction (SMPC)" />
 
       <form onSubmit={handleSubmit} className="space-y-8 max-w-3xl">
         <div className="flex items-center justify-between">

@@ -10,7 +10,7 @@ const ServicesPage = () => {
     {
       title: 'Property Buying',
       desc: 'Comprehensive assistance finding residential homes, villas, and plots.',
-      longDesc: 'Navigating the real estate market requires local expertise and complete legal vigilance. At Mahalaxmi Property, we assist buyers in finding prime residential homes, luxury highway villas, commercial shop units, and plots across Biharigarh, Saharanpur, and the Dehradun corridor. We shortlist verified properties tailored to your exact budget and preference.',
+      longDesc: 'Navigating the real estate market requires local expertise and complete legal vigilance. At Shree Mahalaxmi Properties and Construction (SMPC), we assist buyers in finding prime residential homes, luxury highway villas, commercial shop units, and plots across Biharigarh, Saharanpur, and the Dehradun corridor. We shortlist verified properties tailored to your exact budget and preference.',
       icon: Building2,
       features: [
         '100% Legal Title & Ownership Checking',
@@ -116,9 +116,9 @@ const ServicesPage = () => {
   return (
     <>
       <SEO
-        title="Real Estate Services in Biharigarh | Mahalaxmi UP"
-        description="Get expert real estate services, site visits, legal registry, and land valuation near Pencho Restaurant on Dehradun-Saharanpur Highway in Biharigarh."
-        keywords="Real estate services Biharigarh, Property registry legal help Saharanpur, Land valuation Dehradun Highway, Site visit assistance 247662"
+        title="Best Property Advisor in Biharigarh & Dehradun Services | Shree Mahalaxmi Properties and Construction (SMPC)"
+        description="Real estate advisory services with Best Property Advisor in Biharigarh & Best property advisor in Dehradun for Property In Dehradun Expressway Corridor."
+        keywords="Shree Mahalaxmi Properties and Construction, SMPC, Best property Dealer in Biharigarh, Best Property Advisor in Biharigarh, Best Property in Biharigarh, Best Property Dealer in Dehradun, Best Property in Dehradun, Best property advisor in Dehradun, Property In Dehradun Expressway Corridor, Delhi Dehradun Expressway Property, Properties Delhi Dehradun Expressway way"
       />
 
       {selectedService && (
@@ -133,7 +133,7 @@ const ServicesPage = () => {
           <span className="text-xs font-bold text-gold uppercase tracking-widest block mb-2">SERVICES</span>
           <h1 className="text-4xl font-bold font-heading">Real Estate Services</h1>
           <p className="text-xs sm:text-sm text-slate-300 max-w-2xl mx-auto mt-2 leading-relaxed">
-            Comprehensive end-to-end real estate solutions designed to maximize value, ensure 100% legal title safety, and simplify your property journey across Biharigarh and the Dehradun–Saharanpur corridor.
+            Consult the <strong>Best Property Advisor in Biharigarh</strong> & <strong>Best property advisor in Dehradun</strong> for <strong>Delhi Dehradun Expressway Property</strong> investments and <strong>Property In Dehradun Expressway Corridor</strong> services.
           </p>
         </div>
       </div>

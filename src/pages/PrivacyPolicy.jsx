@@ -6,9 +6,9 @@ const PrivacyPolicy = () => {
   return (
     <div className="font-sans">
       <SEO
-        title="Privacy Policy | Mahalaxmi Property in Biharigarh"
-        description="Read Privacy Policy of Mahalaxmi Property near Pencho Restaurant on Dehradun-Saharanpur Highway, Biharigarh, Saharanpur, UP 247662. Contact us today."
-        keywords="Privacy policy Mahalaxmi Property, Real estate client data safety, Biharigarh property privacy terms"
+        title="Privacy Policy | Shree Mahalaxmi Properties and Construction (SMPC)"
+        description="Read Privacy Policy of Shree Mahalaxmi Properties and Construction (SMPC) near Pencho Restaurant on Dehradun-Saharanpur Highway, Biharigarh, Saharanpur, UP 247662. Contact us today."
+        keywords="Privacy policy Shree Mahalaxmi Properties and Construction, SMPC, Real estate client data safety, Biharigarh property privacy terms"
       />
 
       {/* Header Banner */}
@@ -32,10 +32,10 @@ const PrivacyPolicy = () => {
             <h3 className="text-base sm:text-lg font-bold font-sans text-navy-dark">1. Introduction & Overview</h3>
           </div>
           <p>
-            At <strong>Mahalaxmi Property</strong> ("we," "our," or "us"), maintaining the trust and privacy of our clients, property buyers, sellers, and website visitors is our highest priority. This Privacy Policy outlines how we collect, use, process, and protect your personal information when you access our website, submit property enquiries, schedule site visits, or engage in real estate transactions across Biharigarh, Saharanpur, and the Dehradun highway corridor.
+            At <strong>Shree Mahalaxmi Properties and Construction (SMPC)</strong> ("we," "our," or "us"), maintaining the trust and privacy of our clients, property buyers, sellers, and website visitors is our highest priority. This Privacy Policy outlines how we collect, use, process, and protect your personal information when you access our website, submit property enquiries, schedule site visits, or engage in real estate transactions across Biharigarh, Saharanpur, and the Dehradun highway corridor.
           </p>
           <p>
-            By using our website or submitting your contact details to Mahalaxmi Property, you consent to the data practices described in this policy. If you do not agree with any terms outlined herein, please refrain from providing personal details or using our online services.
+            By using our website or submitting your contact details to Shree Mahalaxmi Properties and Construction (SMPC), you consent to the data practices described in this policy. If you do not agree with any terms outlined herein, please refrain from providing personal details or using our online services.
           </p>
         </div>
 
@@ -75,7 +75,7 @@ const PrivacyPolicy = () => {
             <h4 className="text-base sm:text-lg font-bold font-sans text-navy-dark">3. How We Use Your Information</h4>
           </div>
           <p>
-            The personal information collected by Mahalaxmi Property is strictly used for legitimate business operations and client support, including:
+            The personal information collected by Shree Mahalaxmi Properties and Construction (SMPC) is strictly used for legitimate business operations and client support, including:
           </p>
           <ul className="space-y-2 pl-2">
             <li className="flex items-start gap-2">
@@ -108,7 +108,7 @@ const PrivacyPolicy = () => {
             <h4 className="text-base sm:text-lg font-bold font-sans text-navy-dark">4. Data Confidentiality & Zero Third-Party Selling</h4>
           </div>
           <p>
-            Mahalaxmi Property strictly adheres to zero-tolerance policy against selling, renting, or trading client information to third-party telemarketers, advertising networks, or external agencies.
+            Shree Mahalaxmi Properties and Construction (SMPC) strictly adheres to zero-tolerance policy against selling, renting, or trading client information to third-party telemarketers, advertising networks, or external agencies.
           </p>
           <p>
             Your information is shared only with authorized staff, internal legal advisers, and (where requested by you) verified banking loan officers solely for the purpose of fulfilling your real estate transaction.
@@ -134,7 +134,7 @@ const PrivacyPolicy = () => {
           </p>
           <div className="pt-2 text-xs text-slate-300 space-y-1 font-sans">
             <p><strong>Official Contact Emails:</strong> Direct@mahalaxmipropertiesindia.com | Manager@mahalaxmipropertiesindia.com | sales@mahalaxmipropertiesindia.com</p>
-            <p><strong>Hotline / WhatsApp:</strong> +91 9917970750</p>
+            <p><strong>Hotline / WhatsApp:</strong> +91 75000 87299</p>
             <p><strong>Office Address:</strong> Near Pencho Restaurant, Dehradun–Saharanpur Highway, Biharigarh, Saharanpur, UP - 247662</p>
           </div>
         </div>

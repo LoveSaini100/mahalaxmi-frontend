@@ -18,7 +18,7 @@ export const fetchEnquiriesThunk = createAsyncThunk(
   async (_, { rejectWithValue }) => {
     try {
       const response = await API.get('/enquiries');
-      return response.data.data;
+      return response.data?.data || response.data;
     } catch (error) {
       return rejectWithValue(error.message);
     }
@@ -30,7 +30,7 @@ export const updateEnquiryStatusThunk = createAsyncThunk(
   async ({ id, status }, { rejectWithValue }) => {
     try {
       const response = await API.put(`/enquiries/${id}`, { status });
-      return response.data.data;
+      return response.data?.data || response.data;
     } catch (error) {
       return rejectWithValue(error.message);
     }

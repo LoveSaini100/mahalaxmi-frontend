@@ -112,7 +112,7 @@ const MobileDrawer = () => {
             {/* Contact Footer */}
             <div className="p-5 border-t border-navy-light bg-navy/60 shrink-0">
               <a
-                href={`tel:${settings.phone.replace(/\s+/g, '')}`}
+                href="tel:+917500087299"
                 onClick={closeMenu}
                 className="flex items-center gap-3 text-xs text-slate-200 hover:text-gold transition-colors"
               >
@@ -120,7 +120,7 @@ const MobileDrawer = () => {
                   <Phone className="w-4 h-4" />
                 </div>
                 <div>
-                  <div className="font-bold text-sm text-white">{settings.phone}</div>
+                  <div className="font-bold text-sm text-white">+91 75000 87299</div>
                   <div className="text-[10px] text-slate-400">Call Us Anytime</div>
                 </div>
               </a>

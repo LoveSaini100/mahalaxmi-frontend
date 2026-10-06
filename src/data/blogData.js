@@ -1,4 +1,4 @@
-// Local Real Estate Blogs for Mahalaxmi Property, Biharigarh, Saharanpur
+// Local Real Estate Blogs for Shree Mahalaxmi Properties and Construction (SMPC), Biharigarh, Saharanpur
 export const blogPosts = [
   {
     id: "blog-001",
@@ -51,7 +51,7 @@ Residential interior plots that were priced at ₹6,000 - ₹8,000 per Sq.Yard i
       },
       {
         heading: "5. Key Checkpoints Before Buying Property in Biharigarh",
-        content: `While Biharigarh presents immense financial upside, prospective buyers must perform thorough due diligence. Here are 4 critical steps recommended by Mahalaxmi Property specialists:
+        content: `While Biharigarh presents immense financial upside, prospective buyers must perform thorough due diligence. Here are 4 critical steps recommended by Shree Mahalaxmi Properties and Construction (SMPC) specialists:
 
 1. Verification of Khatauni & Khasra Numbers: Ensure the land record in the UP Revenue (Bhulekh) portal matches the physical boundaries and seller name.
 2. Section 143 (Non-Agricultural Conversion): For commercial or residential development on agricultural land, verify whether 143 conversion permissions are obtained or easily doable.
@@ -62,7 +62,7 @@ Residential interior plots that were priced at ₹6,000 - ₹8,000 per Sq.Yard i
         heading: "Conclusion: Securing Your Real Estate Footprint Today",
         content: `Biharigarh stands at a pivotal juncture where infrastructure development meets high market demand. Whether your goal is building a highway commercial establishment, holding land for capital growth, or creating a family home in peaceful surroundings, timing is everything.
 
-At Mahalaxmi Property, led by Mr. Ishwar Singh Rathour and Mr. Amrit Singh, we specialize in verified, clear-title properties along the Biharigarh-Dehradun corridor. Contact our office near Pencho Restaurant or call +91 9917970750 to schedule your site visit today.`
+At Shree Mahalaxmi Properties and Construction (SMPC), led by Mr. Ishwar Singh Rathour and Mr. Amrit Singh, we specialize in verified, clear-title properties along the Biharigarh-Dehradun corridor. Contact our office near Pencho Restaurant or call +91 75000 87299 to schedule your site visit today.`
       }
     ]
   },
@@ -126,9 +126,9 @@ A commercial business established here receives instant organic impressions with
       },
       {
         heading: "Conclusion: Partnering with Local Highway Specialists",
-        content: `Acquiring commercial land along a major highway requires deep local knowledge, boundary precision, and absolute legal transparency. Mahalaxmi Property, located right near Pencho Restaurant in Biharigarh, has assisted hundreds of commercial buyers in acquiring prime highway frontage.
+        content: `Acquiring commercial land along a major highway requires deep local knowledge, boundary precision, and absolute legal transparency. Shree Mahalaxmi Properties and Construction (SMPC), located right near Pencho Restaurant in Biharigarh, has assisted hundreds of commercial buyers in acquiring prime highway frontage.
 
-Visit our office or call General Manager Mr. Amrit Singh at +91 9917970750 to inspect our verified portfolio of commercial plots available near Pencho Hub.`
+Visit our office or call General Manager Mr. Amrit Singh at +91 75000 87299 to inspect our verified portfolio of commercial plots available near Pencho Hub.`
       }
     ]
   },
@@ -182,7 +182,7 @@ The ongoing infrastructure transformation of the Saharanpur–Dehradun highway n
         heading: "Conclusion: Capitalizing Before Prices Reach Peak Levels",
         content: `Infrastructure-led growth offers the highest returns to investors who enter early before full project completion. Biharigarh remains in a prime growth phase where land is still competitively priced compared to Dehradun or Haridwar.
 
-Consult with Mahalaxmi Property to identify top-performing land parcels along the expanding Saharanpur-Dehradun corridor.`
+Consult with Shree Mahalaxmi Properties and Construction (SMPC) to identify top-performing land parcels along the expanding Saharanpur-Dehradun corridor.`
       }
     ]
   },
@@ -206,7 +206,7 @@ Consult with Mahalaxmi Property to identify top-performing land parcels along th
         heading: "Introduction: The Importance of Rigorous Property Title Checks",
         content: `Buying land is one of the most significant financial investments you will ever make. However, navigating revenue documentation in Uttar Pradesh requires a clear understanding of state revenue codes, online land record portals, and physical Registry Office verification.
 
-At Mahalaxmi Property, we adhere to a strict policy: every property presented to our clients must have a 100% verified legal title. In this guide, our General Manager Mr. Amrit Singh shares the exact step-by-step procedure used by legal professionals to verify land title deeds in Saharanpur district and Uttar Pradesh.`
+At Shree Mahalaxmi Properties and Construction (SMPC), we adhere to a strict policy: every property presented to our clients must have a 100% verified legal title. In this guide, our General Manager Mr. Amrit Singh shares the exact step-by-step procedure used by legal professionals to verify land title deeds in Saharanpur district and Uttar Pradesh.`
       },
       {
         heading: "Step 1: Check Online Khatauni & Khasra on Bhulekh UP",
@@ -244,8 +244,8 @@ At Mahalaxmi Property, we adhere to a strict policy: every property presented to
 • Timeline: Apply for mutation immediately after registry to ensure legal ownership is fully updated.`
       },
       {
-        heading: "Conclusion: Zero-Risk Land Purchase with Mahalaxmi Property",
-        content: `Navigating legal paperwork does not have to be stressful. At Mahalaxmi Property, our legal team conducts rigorous title checks on all listed properties in Biharigarh, Saharanpur, and along the Dehradun Highway.
+        heading: "Conclusion: Zero-Risk Land Purchase with Shree Mahalaxmi Properties and Construction (SMPC)",
+        content: `Navigating legal paperwork does not have to be stressful. At Shree Mahalaxmi Properties and Construction (SMPC), our legal team conducts rigorous title checks on all listed properties in Biharigarh, Saharanpur, and along the Dehradun Highway.
 
 Contact our team to explore 100% verified, legal-ready commercial and residential properties.`
       }
@@ -307,7 +307,7 @@ Both options offer unique advantages depending on your financial timeline, inves
         heading: "Conclusion: Aligning Choice with Your Personal Goals",
         content: `If your primary goal is wealth creation and capital appreciation over a 3 to 5 year horizon, investing in a plot in Biharigarh is the clear winner. If your priority is immediate family accommodation without construction hassles, a constructed independent house is ideal.
 
-Mahalaxmi Property offers an extensive selection of both verified residential plots and move-in-ready independent homes in Biharigarh.`
+Shree Mahalaxmi Properties and Construction (SMPC) offers an extensive selection of both verified residential plots and move-in-ready independent homes in Biharigarh.`
       }
     ]
   },
@@ -399,9 +399,9 @@ By acquiring residential property in this tightly held corridor today, you secur
         heading: "Conclusion: Claim Your Slice of Nature Today",
         content: `Investing in residential land near the Rajaji National Park foothills in Biharigarh is far more than just a financial transaction—it is a conscious commitment to your family's health, peace of mind, and long-term financial security. With its pristine mountain air, majestic views, rapid 30-minute access to Dehradun, strong farmhouse rental potential, and robust land value appreciation, Biharigarh foothill land stands out as a top-tier real estate choice.
 
-At Mahalaxmi Property, led by Founder Mr. Ishwar Singh Rathour and General Manager Mr. Amrit Singh, we specialize in offering verified, clear-title residential plots in prime foothill locations across Biharigarh. Every plot in our portfolio undergoes rigorous legal title verification, physical boundary demarcation, and road width inspection so that you can make your investment with absolute confidence.
+At Shree Mahalaxmi Properties and Construction (SMPC), led by Founder Mr. Ishwar Singh Rathour and General Manager Mr. Amrit Singh, we specialize in offering verified, clear-title residential plots in prime foothill locations across Biharigarh. Every plot in our portfolio undergoes rigorous legal title verification, physical boundary demarcation, and road width inspection so that you can make your investment with absolute confidence.
 
-Whether you are looking for a 200 Sq.Yard plot for a family home or a multi-bigha parcel for a private farmhouse, our team is ready to guide you through personalized site visits. Contact our office near Pencho Restaurant in Biharigarh or call +91 9917970750 today to claim your slice of nature!`
+Whether you are looking for a 200 Sq.Yard plot for a family home or a multi-bigha parcel for a private farmhouse, our team is ready to guide you through personalized site visits. Contact our office near Pencho Restaurant in Biharigarh or call +91 75000 87299 today to claim your slice of nature!`
       }
     ]
   },
@@ -468,9 +468,9 @@ Biharigarh serves as a vital distribution node connecting industrial suppliers i
         heading: "Conclusion: Partner with Biharigarh's Premier Real Estate Experts",
         content: `Commercial real estate success hinges on acquiring the right piece of land—one with verified title deeds, optimal frontage dimensions, clear Section 143 non-agricultural status, and hassle-free highway access. Making an uninformed purchase can lead to legal complications or restricted commercial access.
 
-At Mahalaxmi Property, led by Founder Mr. Ishwar Singh Rathour and General Manager Mr. Amrit Singh, we maintain an exclusive, hand-picked inventory of prime commercial plots along National Highway 307 and near the iconic Pencho Restaurant hub in Biharigarh. Our team handles complete legal due diligence, title verification, land survey measurements, and boundary demarcation to ensure your commercial project gets off to a flawless start.
+At Shree Mahalaxmi Properties and Construction (SMPC), led by Founder Mr. Ishwar Singh Rathour and General Manager Mr. Amrit Singh, we maintain an exclusive, hand-picked inventory of prime commercial plots along National Highway 307 and near the iconic Pencho Restaurant hub in Biharigarh. Our team handles complete legal due diligence, title verification, land survey measurements, and boundary demarcation to ensure your commercial project gets off to a flawless start.
 
-Whether you are seeking a 5,000 Sq.Ft plot for a highway dhaba or a multi-bigha commercial parcel for a petrol pump or showroom complex, we are here to turn your commercial vision into a highly profitable reality. Visit our office near Pencho Restaurant in Biharigarh or call +91 9917970750 to schedule a personalized commercial site tour today!`
+Whether you are seeking a 5,000 Sq.Ft plot for a highway dhaba or a multi-bigha commercial parcel for a petrol pump or showroom complex, we are here to turn your commercial vision into a highly profitable reality. Visit our office near Pencho Restaurant in Biharigarh or call +91 75000 87299 to schedule a personalized commercial site tour today!`
       }
     ]
   },
@@ -496,7 +496,7 @@ Whether you are seeking a 5,000 Sq.Ft plot for a highway dhaba or a multi-bigha 
 
 However, for first-time homebuyers, non-resident investors, and families navigating the real estate process, buying property in Uttar Pradesh can often feel complex and intimidating. From understanding intricate revenue terminology like Khatauni, Khasra, and Dakhil Kharij to accurately estimating local stamp duty, verifying Section 143 non-agricultural land conversions, and completing Sub-Registrar Office execution, first-time buyers frequently struggle to identify where to begin and how to safeguard their hard-earned money.
 
-Making an uninformed property purchase without thorough physical and legal due diligence can lead to severe complications—such as purchasing encumbered land, discovering undisclosed family inheritance disputes, facing unexpected municipal setbacks, or dealing with costly boundary conflicts. To empower you with complete transparency, protect your financial security, and enable you to make confident real estate decisions, General Manager Mr. Amrit Singh and the legal advisory team at Mahalaxmi Property have structured this definitive 10-step checklist for property buyers across Saharanpur district and Biharigarh.`
+Making an uninformed property purchase without thorough physical and legal due diligence can lead to severe complications—such as purchasing encumbered land, discovering undisclosed family inheritance disputes, facing unexpected municipal setbacks, or dealing with costly boundary conflicts. To empower you with complete transparency, protect your financial security, and enable you to make confident real estate decisions, General Manager Mr. Amrit Singh and the legal advisory team at Shree Mahalaxmi Properties and Construction (SMPC) have structured this definitive 10-step checklist for property buyers across Saharanpur district and Biharigarh.`
       },
       {
         heading: "1. Define Your Real Estate Purpose & Budget",
@@ -631,11 +631,11 @@ Understanding the Mutation (Dakhil Kharij) Process:
         heading: "Conclusion: Your Trusted Partner in Saharanpur Real Estate",
         content: `Following this comprehensive 10-step checklist guarantees that your real estate investment in Saharanpur district, Biharigarh, or along the Dehradun Highway corridor is 100% legal, secure, fully documented, and positioned for outstanding long-term capital growth.
 
-At Mahalaxmi Property, led by Founder Mr. Ishwar Singh Rathour and General Manager Mr. Amrit Singh, we are committed to upholding absolute transparency, professional ethics, and complete customer protection. Every residential plot, commercial highway land parcel, and farmhouse property in our portfolio undergoes a rigorous 10-point legal title verification, physical boundary measurement, and encumbrance check before being offered to our valued clients.
+At Shree Mahalaxmi Properties and Construction (SMPC), led by Founder Mr. Ishwar Singh Rathour and General Manager Mr. Amrit Singh, we are committed to upholding absolute transparency, professional ethics, and complete customer protection. Every residential plot, commercial highway land parcel, and farmhouse property in our portfolio undergoes a rigorous 10-point legal title verification, physical boundary measurement, and encumbrance check before being offered to our valued clients.
 
 Whether you are a first-time homebuyer searching for an affordable residential plot, a business owner acquiring commercial highway land for a dhaba or petrol pump, or an investor seeking prime foothill land near Rajaji National Park, our team provides complete end-to-end support—from initial site tours to legal title verification, stamp duty estimation, registry execution, and Tehsil mutation assistance.
 
-Take your first step toward safe and profitable real estate ownership today! Visit the Mahalaxmi Property corporate office situated near Pencho Restaurant on the Dehradun-Saharanpur Highway in Biharigarh, or call our expert advisors directly at +91 9917970750 to schedule a free, personalized property consultation.`
+Take your first step toward safe and profitable real estate ownership today! Visit the Shree Mahalaxmi Properties and Construction (SMPC) corporate office situated near Pencho Restaurant on the Dehradun-Saharanpur Highway in Biharigarh, or call our expert advisors directly at +91 75000 87299 to schedule a free, personalized property consultation.`
       }
     ]
   }

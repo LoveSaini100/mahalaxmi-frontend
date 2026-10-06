@@ -31,8 +31,15 @@ const PropertyCard = ({ property }) => {
         <img
           src={mainImage}
           alt={property.title}
+          width="380"
+          height="238"
+          decoding="async"
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
           loading="lazy"
+          onError={(e) => {
+            e.currentTarget.onerror = null;
+            e.currentTarget.src = 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80';
+          }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-navy-dark/70 via-transparent to-transparent opacity-80" />
 
@@ -55,11 +62,10 @@ const PropertyCard = ({ property }) => {
               e.preventDefault();
               dispatch(toggleFavorite(property._id));
             }}
-            className={`p-2 rounded-full backdrop-blur-md transition-all duration-300 ${
-              isFavorite
+            className={`p-2 rounded-full backdrop-blur-md transition-all duration-300 ${isFavorite
                 ? 'bg-red-500 text-white shadow-lg scale-110'
                 : 'bg-navy-dark/60 text-white/90 hover:bg-navy hover:text-gold'
-            }`}
+              }`}
             aria-label="Add to favorites"
           >
             <Heart className={`w-4 h-4 ${isFavorite ? 'fill-current' : ''}`} />
@@ -69,13 +75,12 @@ const PropertyCard = ({ property }) => {
         {/* Bottom Image Overlay Status & Price */}
         <div className="absolute bottom-3 left-3 right-3 flex items-end justify-between z-10">
           <span
-            className={`px-2.5 py-0.5 rounded-md text-[10px] font-semibold uppercase tracking-wider ${
-              property.propertyStatus === 'Available'
+            className={`px-2.5 py-0.5 rounded-md text-[10px] font-semibold uppercase tracking-wider ${property.propertyStatus === 'Available'
                 ? 'bg-emerald-500/90 text-white'
                 : property.propertyStatus === 'Sold'
-                ? 'bg-red-500/90 text-white'
-                : 'bg-amber-500/90 text-white'
-            }`}
+                  ? 'bg-red-500/90 text-white'
+                  : 'bg-amber-500/90 text-white'
+              }`}
           >
             {property.propertyStatus}
           </span>

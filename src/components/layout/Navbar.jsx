@@ -162,7 +162,7 @@ const Navbar = () => {
 
           <div className="flex items-center gap-3 border-l border-slate-200/50 pl-4 lg:pl-6">
             <a
-              href={`tel:${settings.phone.replace(/\s+/g, '')}`}
+              href="tel:+917500087299"
               className={`flex items-center gap-2 text-sm font-semibold px-2.5 py-2 rounded-lg transition-colors whitespace-nowrap ${
                 !scrolled && isHomePage
                   ? 'text-white/90 hover:text-gold'
@@ -170,7 +170,7 @@ const Navbar = () => {
               }`}
             >
               <Phone className="w-3.5 h-3.5 text-gold shrink-0" />
-              <span>{settings.phone}</span>
+              <span>+91 75000 87299</span>
             </a>
 
             <Link
