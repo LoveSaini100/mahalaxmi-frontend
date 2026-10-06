@@ -27,6 +27,3 @@ dist-ssr
 .env
 .env.production
 
-# Public uploads
-public/uploads/*
-!public/uploads/.gitkeep
